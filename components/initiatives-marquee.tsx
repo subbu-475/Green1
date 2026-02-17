@@ -5,7 +5,7 @@ const initiatives = [
   "Green Schools Initiative",
   "Sustainable Cities Program",
   "Green Factory Movement",
-  "World GBC Partnership",
+  "World WGBO Partnership",
   "ESG Net Zero Program",
   "Green Education Conclave",
   "Green Township Standards",
@@ -21,7 +21,7 @@ export function InitiativesMarquee() {
       <div className="mx-auto max-w-7xl px-4">
         <div className="mb-8 text-center">
           <h2 className="font-serif text-3xl font-bold text-foreground md:text-4xl">
-            GBC Initiatives <span className="text-primary">Catalyzing the Movement</span>
+            WGBO Initiatives <span className="text-primary">Catalyzing the Movement</span>
           </h2>
         </div>
 

@@ -46,7 +46,7 @@ export function EventsSection() {
       <div className="mx-auto max-w-7xl px-4">
         <div className="mb-10 text-center">
           <h2 className="font-serif text-3xl font-bold text-foreground md:text-4xl">
-            GBC <span className="text-primary">Events</span>
+            WGBO <span className="text-primary">Events</span>
           </h2>
         </div>
 

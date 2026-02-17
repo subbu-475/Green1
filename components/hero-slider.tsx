@@ -8,11 +8,11 @@ const slides = [
   {
     image: "/images/hero-1-v3.jpg",
     subtitle: "Powering the Nation's Green Future",
-    title: "GBC Leadership in Sustainable Construction",
+    title: "WGBO Leadership in Sustainable Construction",
     description:
       "Driving the green building movement through strategic partnerships with government bodies and industry leaders for a sustainable tomorrow.",
     cta: "Know More",
-    href: "#",
+    href: "/about",
   },
   {
     image: "/images/hero-2-v3.jpg",
@@ -21,7 +21,7 @@ const slides = [
     description:
       "Transforming urban transit infrastructure with green-certified metro systems that reduce carbon emissions and promote eco-friendly commuting.",
     cta: "Know More",
-    href: "#",
+    href: "/services",
   },
   {
     image: "/images/hero-3-v3.jpg",
@@ -30,7 +30,7 @@ const slides = [
     description:
       "International Conference and Green Expo to accelerate the green and net-zero building movement, offering a platform for discussions and showcasing solutions.",
     cta: "Know More",
-    href: "#",
+    href: "/awards",
   },
 ]
 

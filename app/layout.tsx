@@ -7,8 +7,12 @@ const _inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 const _playfair = Playfair_Display({ subsets: ['latin'], variable: '--font-playfair' })
 
 export const metadata: Metadata = {
-  title: 'GreenBuild Council | Sustainable Built Environment',
-  description: 'GreenBuild Council (GBC) is the premier certification body for green buildings, driving sustainable construction practices and net-zero built environment.',
+  title: 'WGBO | World Green Building Organization',
+  description: 'World Green Building Organization (WGBO) is the premier certification body for green buildings, driving sustainable construction practices and net-zero built environment.',
+  icons: {
+    icon: '/favicon.ico',
+    apple: '/images/apple-icon.png',
+  },
 }
 
 export const viewport: Viewport = {

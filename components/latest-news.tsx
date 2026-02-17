@@ -12,7 +12,7 @@ const newsItems = [
   "Green Education Conclave 2024",
   "Fellow Award 2025 - Nominations Open",
   "Green Factory Building Version 2.0 Launched | Registrations Open",
-  "GBC & ESG Net Zero Program",
+  "WGBO & ESG Net Zero Program",
   "Green Impressions of Young Minds",
 ]
 
@@ -22,7 +22,7 @@ export function LatestNews() {
       <div className="mx-auto max-w-7xl px-4">
         <div className="mb-8 flex items-center gap-3">
           <h2 className="font-serif text-3xl font-bold text-foreground">
-            Latest in <span className="text-primary">GBC</span>
+            Latest in <span className="text-primary">WGBO</span>
           </h2>
           <div className="h-1 flex-1 rounded bg-primary/20" />
         </div>

@@ -4,6 +4,7 @@ import { HeroSlider } from "@/components/hero-slider"
 import { StatsBar } from "@/components/stats-bar"
 import { LatestNews } from "@/components/latest-news"
 import { AboutSection } from "@/components/about-section"
+import { Highlights } from "@/components/highlights"
 import { RatingSystems } from "@/components/rating-systems"
 import { EventsSection } from "@/components/events-section"
 import { NationalBenefits } from "@/components/national-benefits"
@@ -23,6 +24,7 @@ export default function Page() {
         <StatsBar />
         <LatestNews />
         <AboutSection />
+        <Highlights />
         <RatingSystems />
         <EventsSection />
         <NationalBenefits />

@@ -9,7 +9,7 @@ const tabs = [
     id: "about",
     label: "About Us",
     content: {
-      text: "GreenBuild Council (GBC) is the premier certification body for sustainable construction, headquartered in the nation's capital. GBC is a founding member of the World Green Building Council, actively participating in global discussions on sustainability at COP and similar international platforms.",
+      text: "World Green Building Organization (WGBO) is the premier certification body for sustainable construction, headquartered in Chennai, India. WGBO actively participates in global discussions on sustainability at COP and similar international platforms, driving the green building movement worldwide.",
       points: [
         "18,850+ projects with green footprint of over 15.52 Billion sq.ft.",
         "7,370 projects are certified & fully operational.",
@@ -20,7 +20,7 @@ const tabs = [
     id: "mission",
     label: "Our Mission",
     content: {
-      text: "The Green Business Centre, one of our Centres of Excellence, was conceived and designed to offer a one-stop solution on various aspects of environmental management to industry, facilitating emergence as one of the global leaders in green business.",
+      text: "World Green Building Organization (WGBO), one of the Centres of Excellence, was conceived and designed to offer a one-stop solution on various aspects of environmental management to industry, facilitating emergence as one of the global leaders in green business.",
       points: [
         "In 2004, our headquarters earned the distinction of becoming the first platinum rated green building in the country.",
         "The Centre was inaugurated by the President, marking a historic milestone in green construction.",
@@ -31,7 +31,7 @@ const tabs = [
     id: "vision",
     label: "Our Vision",
     content: {
-      text: "The vision of GBC is to facilitate a sustainable built environment for all and become one of the global leaders in the sustainable built environment by 2030. In the last 2 decades, through a multi-pronged approach, GBC has brought a paradigm shift in how buildings are conceived and designed.",
+      text: "The vision of WGBO is to facilitate a sustainable built environment for all and become one of the global leaders in the sustainable built environment by 2030. In the last 2 decades, through a multi-pronged approach, WGBO has brought a paradigm shift in how buildings are conceived and designed.",
       points: [
         "Launched 32 Green and Net Zero Rating Systems for Buildings and Built Environment addressing various typologies.",
         "Representing at global forum among 90+ country councils as founding member of WorldGBC since 2004.",
@@ -89,7 +89,7 @@ export function AboutSection() {
             </ul>
 
             <a
-              href="#"
+              href="/about"
               className="mt-8 inline-flex items-center gap-2 rounded bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground transition-colors hover:bg-primary/90"
             >
               Learn More
