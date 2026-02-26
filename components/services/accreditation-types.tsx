@@ -99,8 +99,8 @@ export function AccreditationTypes() {
                             key={t.id}
                             onClick={() => setActiveTab(t.id)}
                             className={`rounded-full px-6 py-2.5 text-sm font-bold transition-all ${activeTab === t.id
-                                    ? "bg-primary text-white shadow-lg"
-                                    : "bg-background text-foreground hover:bg-primary/10"
+                                ? "bg-primary text-white shadow-lg"
+                                : "bg-background text-foreground hover:bg-primary/10"
                                 }`}
                         >
                             {t.badge} — {t.level}
@@ -141,10 +141,10 @@ export function AccreditationTypes() {
                         </div>
 
                         <a
-                            href="mailto:certification@wgbo.org.in"
+                            href="mailto:enquiry@wgbo.org.in"
                             className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-primary hover:underline"
                         >
-                            <Mail className="h-4 w-4" /> certification@wgbo.org.in
+                            <Mail className="h-4 w-4" /> enquiry@wgbo.org.in
                         </a>
                     </div>
 

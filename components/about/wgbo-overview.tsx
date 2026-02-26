@@ -2,19 +2,31 @@
 
 import {
     Building2,
-    ShieldCheck,
-    Heart,
-    CloudSun,
-    TreePine,
-    TrendingUp,
+    Star,
+    GraduationCap,
+    Megaphone,
+    Eye,
 } from "lucide-react"
 
-const aims = [
-    { icon: ShieldCheck, text: "Driving resiliency in buildings, fit outs, and communities" },
-    { icon: TrendingUp, text: "Contributing to market transformation and a sustainable economy" },
-    { icon: Heart, text: "Enhancing our health and quality of life" },
-    { icon: CloudSun, text: "Reducing the impact of climate change" },
-    { icon: TreePine, text: "Restoring and protecting our planet's biodiversity and ecosystems" },
+const pillars = [
+    {
+        icon: Star,
+        title: "We Rate",
+        desc: "We rate the sustainability of buildings, fitouts and communities through largest national, voluntary, holistic rating system.",
+        gradient: "from-amber-500 to-orange-500",
+    },
+    {
+        icon: GraduationCap,
+        title: "We Educate",
+        desc: "We educate industry, practitioners and decision-makers, and promote green building programs, technologies, design practices and operations.",
+        gradient: "from-emerald-500 to-teal-500",
+    },
+    {
+        icon: Megaphone,
+        title: "We Advocate",
+        desc: "We advocate policies and programs that support our vision and purpose.",
+        gradient: "from-cyan-500 to-blue-500",
+    },
 ]
 
 export function WGBOOverview() {
@@ -35,58 +47,53 @@ export function WGBOOverview() {
                     </h2>
                 </div>
 
-                <div className="grid items-start gap-12 lg:grid-cols-5">
-                    {/* Content — 3 cols */}
-                    <div className="lg:col-span-3">
-                        <div className="rounded-2xl border border-border/60 bg-gradient-to-br from-secondary/40 to-background p-8 shadow-sm md:p-10">
-                            <div className="mb-6 flex items-center gap-3">
-                                <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-primary text-primary-foreground">
-                                    <Building2 className="h-6 w-6" />
-                                </div>
-                                <div>
-                                    <h3 className="text-lg font-bold text-foreground">World Green Building Organization</h3>
-                                    <p className="text-sm text-muted-foreground">Part of WSO India &bull; Est. 2022</p>
-                                </div>
+                {/* Overview Content */}
+                <div className="mx-auto mb-16 max-w-4xl">
+                    <div className="rounded-2xl border border-border/60 bg-gradient-to-br from-secondary/40 to-background p-8 shadow-sm md:p-10">
+                        <div className="mb-6 flex items-center gap-3">
+                            <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-primary text-primary-foreground">
+                                <Building2 className="h-6 w-6" />
                             </div>
-
-                            <p className="mb-5 text-base leading-[1.8] text-muted-foreground">
-                                The <strong className="text-foreground">World Green Building Organization (WGBO)</strong>, part of the
-                                World Safety Organization (WSO) India was formed in the year{" "}
-                                <strong className="text-foreground">2022</strong>.
-                            </p>
-                            <p className="mb-5 text-base leading-[1.8] text-muted-foreground">
-                                World Green Building Organization (WGBO) is an{" "}
-                                <strong className="text-foreground">internationally recognised rating system</strong> setting the standard
-                                for healthy, resilient, positive buildings and places. Developed for the national environment of sustainable
-                                fit outs, buildings, homes and communities right across the country.
-                            </p>
-                            <p className="text-base leading-[1.8] text-muted-foreground">
-                                WGBO has a team of national and international{" "}
-                                <strong className="text-foreground">Environmental, Social, and Governance professionals</strong> who have
-                                academic knowledge and many years of practical experience in Environmental, Social, and Governance fields.
-                            </p>
-                        </div>
-                    </div>
-
-                    {/* Aims — 2 cols */}
-                    <div className="lg:col-span-2">
-                        <div className="rounded-2xl border border-primary/20 bg-primary/5 p-6">
-                            <h3 className="mb-6 text-center font-serif text-xl font-bold text-foreground">Our Aims</h3>
-                            <div className="space-y-4">
-                                {aims.map((aim, i) => (
-                                    <div
-                                        key={i}
-                                        className="group flex items-start gap-4 rounded-xl bg-background p-4 shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:shadow-md"
-                                    >
-                                        <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-primary/10 text-primary transition-colors group-hover:bg-primary group-hover:text-white">
-                                            <aim.icon className="h-5 w-5" />
-                                        </div>
-                                        <p className="text-sm leading-relaxed text-foreground">{aim.text}</p>
-                                    </div>
-                                ))}
+                            <div>
+                                <h3 className="text-lg font-bold text-foreground">World Green Building Organization</h3>
+                                <p className="text-sm text-muted-foreground">Part of WSO India &bull; Est. 2022</p>
                             </div>
                         </div>
+
+                        <p className="text-base leading-[1.8] text-muted-foreground">
+                            The <strong className="text-foreground">World Green Building Organization (WGBO)</strong>, part of the
+                            World Safety Organization (WSO) India was formed in the year{" "}
+                            <strong className="text-foreground">2022</strong>, our purpose is to lead the sustainable transformation of the built environment.
+                        </p>
                     </div>
+                </div>
+
+                {/* Pillars: We Rate, We Educate, We Advocate */}
+                <div className="grid gap-8 md:grid-cols-3">
+                    {pillars.map((p, i) => (
+                        <div
+                            key={p.title}
+                            className="group relative overflow-hidden rounded-2xl border border-border/60 bg-background p-8 shadow-sm transition-all duration-300 hover:-translate-y-2 hover:shadow-xl"
+                        >
+                            {/* Top gradient accent */}
+                            <div className={`absolute left-0 top-0 h-1 w-full bg-gradient-to-r ${p.gradient}`} />
+
+                            {/* Icon */}
+                            <div
+                                className={`mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br ${p.gradient} text-white shadow-lg`}
+                            >
+                                <p.icon className="h-8 w-8" />
+                            </div>
+
+                            {/* Number */}
+                            <span className="absolute right-6 top-8 text-7xl font-black text-primary/[0.04]">
+                                {String(i + 1).padStart(2, "0")}
+                            </span>
+
+                            <h3 className="mb-3 text-xl font-bold text-foreground">{p.title}</h3>
+                            <p className="text-sm leading-relaxed text-muted-foreground">{p.desc}</p>
+                        </div>
+                    ))}
                 </div>
             </div>
         </section>

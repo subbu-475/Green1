@@ -75,8 +75,8 @@ export function ProfessionalMembership() {
                         <div className="mt-6 rounded-xl bg-gradient-to-r from-[hsl(145,63%,28%)] to-[hsl(160,50%,25%)] p-6 text-center shadow-lg">
                             <p className="text-sm font-bold text-white">Apply for Membership</p>
                             <p className="mt-1 text-xs text-white/70">Mail us to get the application form and fee details</p>
-                            <a href="mailto:membership@wgbo.org.in" className="mt-4 inline-flex items-center gap-2 rounded-full bg-white px-6 py-2 text-xs font-bold text-[hsl(145,63%,28%)]">
-                                <Mail className="h-3.5 w-3.5" /> membership@wgbo.org.in
+                            <a href="mailto:enquiry@wgbo.org.in" className="mt-4 inline-flex items-center gap-2 rounded-full bg-white px-6 py-2 text-xs font-bold text-[hsl(145,63%,28%)]">
+                                <Mail className="h-3.5 w-3.5" /> enquiry@wgbo.org.in
                             </a>
                         </div>
                     </div>
@@ -122,8 +122,8 @@ export function ProfessionalMembership() {
                             </p>
                             <p className="text-xs text-muted-foreground">
                                 For annual membership fees and latest discounted rates, contact:{" "}
-                                <a href="mailto:membership@wgbo.org.in" className="font-semibold text-primary hover:underline">
-                                    membership@wgbo.org.in
+                                <a href="mailto:enquiry@wgbo.org.in" className="font-semibold text-primary hover:underline">
+                                    enquiry@wgbo.org.in
                                 </a>
                             </p>
                         </div>

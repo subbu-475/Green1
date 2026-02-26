@@ -43,8 +43,8 @@ export function CertificationBoard() {
                             </p>
                         </div>
 
-                        <a href="mailto:certification@wgbo.org.in" className="mt-6 inline-flex items-center gap-2 rounded-full bg-primary px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-primary/90">
-                            certification@wgbo.org.in
+                        <a href="mailto:enquiry@wgbo.org.in" className="mt-6 inline-flex items-center gap-2 rounded-full bg-primary px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-primary/90">
+                            enquiry@wgbo.org.in
                         </a>
                     </div>
 
@@ -86,31 +86,6 @@ export function CertificationBoard() {
                     </div>
                 </div>
 
-                {/* Processing & Renewal Info */}
-                <div className="mx-auto mt-12 grid max-w-5xl gap-6 md:grid-cols-2">
-                    <div className="rounded-xl border border-border/60 bg-secondary/40 p-6">
-                        <h4 className="mb-3 flex items-center gap-2 text-sm font-bold text-foreground">
-                            <Clock className="h-4 w-4 text-primary" /> Processing of Application
-                        </h4>
-                        <ul className="space-y-2 text-xs text-muted-foreground">
-                            <li className="flex items-start gap-2"><Check className="mt-0.5 h-3 w-3 shrink-0 text-primary" /> One-time non-refundable payment of $100+ (subject to GST)</li>
-                            <li className="flex items-start gap-2"><Check className="mt-0.5 h-3 w-3 shrink-0 text-primary" /> Ineligible applications returned for resubmission</li>
-                            <li className="flex items-start gap-2"><Check className="mt-0.5 h-3 w-3 shrink-0 text-primary" /> Incomplete applications expire after 3 months</li>
-                            <li className="flex items-start gap-2"><Check className="mt-0.5 h-3 w-3 shrink-0 text-primary" /> ~2 months processing time; notified via email</li>
-                            <li className="flex items-start gap-2"><Check className="mt-0.5 h-3 w-3 shrink-0 text-primary" /> Evaluated by a panel — decision is final</li>
-                        </ul>
-                    </div>
-                    <div className="rounded-xl border border-border/60 bg-secondary/40 p-6">
-                        <h4 className="mb-3 flex items-center gap-2 text-sm font-bold text-foreground">
-                            <FileText className="h-4 w-4 text-primary" /> Renewal of Certification
-                        </h4>
-                        <ul className="space-y-2 text-xs text-muted-foreground">
-                            <li className="flex items-start gap-2"><Check className="mt-0.5 h-3 w-3 shrink-0 text-primary" /> All qualifications require annual renewal</li>
-                            <li className="flex items-start gap-2"><Check className="mt-0.5 h-3 w-3 shrink-0 text-primary" /> Renewal fee: $100+ (subject to GST)</li>
-                            <li className="flex items-start gap-2"><Check className="mt-0.5 h-3 w-3 shrink-0 text-primary" /> Granted upon fulfilment of CPD point requirements</li>
-                        </ul>
-                    </div>
-                </div>
             </div>
         </section>
     )

@@ -108,23 +108,6 @@ export function AccreditationBenefits() {
                                 ))}
                             </ul>
                         </div>
-
-                        {/* Resources */}
-                        <div className="rounded-2xl border border-border/60 bg-background p-6 shadow-sm">
-                            <h4 className="mb-4 font-bold text-foreground">Certification &amp; Symposium Resources</h4>
-                            <div className="grid grid-cols-2 gap-3">
-                                {certResources.map((r) => (
-                                    <a
-                                        key={r.title}
-                                        href="#"
-                                        className="group rounded-xl border border-border/40 bg-secondary/30 p-4 transition-all hover:border-primary/30 hover:bg-secondary"
-                                    >
-                                        <p className="text-xs font-bold text-foreground group-hover:text-primary">{r.title}</p>
-                                        <p className="mt-1 text-[10px] leading-relaxed text-muted-foreground">{r.desc}</p>
-                                    </a>
-                                ))}
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>

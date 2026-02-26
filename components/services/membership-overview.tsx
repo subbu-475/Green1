@@ -69,8 +69,8 @@ export function MembershipOverview() {
                                 WGBO can assist you in the application process. ONLY full-time practitioners in the Environment, Social, Sustainability and allied fields are eligible for Affiliate Membership.
                             </p>
                             <div className="flex flex-wrap items-center gap-3">
-                                <a href="mailto:membership@wgbo.org.in" className="inline-flex items-center gap-2 rounded-full bg-white px-6 py-2.5 text-sm font-bold text-[hsl(145,63%,28%)] transition-transform hover:scale-105">
-                                    <Mail className="h-4 w-4" /> membership@wgbo.org.in
+                                <a href="mailto:enquiry@wgbo.org.in" className="inline-flex items-center gap-2 rounded-full bg-white px-6 py-2.5 text-sm font-bold text-[hsl(145,63%,28%)] transition-transform hover:scale-105">
+                                    <Mail className="h-4 w-4" /> enquiry@wgbo.org.in
                                 </a>
                             </div>
                         </div>

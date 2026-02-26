@@ -12,7 +12,7 @@ const toolAims = [
 
 export function WGBOTools() {
     return (
-        <section className="relative overflow-hidden bg-secondary py-20 md:py-28">
+        <section className="relative overflow-hidden bg-background py-20 md:py-28">
             {/* Background pattern */}
             <div
                 className="pointer-events-none absolute inset-0 opacity-[0.03]"
@@ -31,13 +31,21 @@ export function WGBOTools() {
                         Our Tools
                     </span>
                     <h2 className="mt-5 font-serif text-3xl font-bold text-foreground md:text-4xl lg:text-5xl">
-                        WGBO Framework &amp; Tools
+                        What is World Green Building Organization (WGBO)?
                     </h2>
                     <p className="mx-auto mt-4 max-w-3xl text-base text-muted-foreground">
-                        Our WGBO tools offer a framework of best practice benchmarks for sustainable construction. WGBO is the
-                        national trusted mark of quality for the design, construction and operation of sustainable buildings,
-                        fit-outs and communities.
+                        Our World Green Building Organization (WGBO) tools offer a framework of best practice benchmarks for sustainable construction.
                     </p>
+                </div>
+
+                {/* Description */}
+                <div className="mx-auto mb-12 max-w-4xl">
+                    <div className="rounded-2xl border border-border/60 bg-gradient-to-br from-secondary/40 to-background p-8 shadow-sm md:p-10">
+                        <p className="text-base leading-[1.8] text-muted-foreground">
+                            World Green Building Organization (WGBO) national trusted mark of quality for the design, construction and operation of sustainable buildings, fit-outs and communities.
+                        </p>
+                        <p className="mt-4 text-sm font-semibold text-foreground">The tools aim to:</p>
+                    </div>
                 </div>
 
                 {/* Tools Aims */}

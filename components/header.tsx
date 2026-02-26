@@ -9,7 +9,7 @@ const navItems = [
   { label: "Home", href: "/" },
   { label: "About Us", href: "/about" },
   { label: "Our Services", href: "/services" },
-  { label: "Rating Systems", href: "/#ratings" },
+  { label: "Rating Systems", href: "/rating-system" },
   { label: "Membership", href: "/membership" },
   { label: "Events", href: "/#events" },
   { label: "Awards", href: "/awards" },

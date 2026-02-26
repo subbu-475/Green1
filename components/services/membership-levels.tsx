@@ -89,7 +89,7 @@ export function MembershipLevels() {
                             <li>Institutional Member</li>
                             <li>Industry / Company Member</li>
                         </ul>
-                        <a href="mailto:membership@wgbo.org.in" className="mt-5 text-sm font-semibold text-primary hover:underline">
+                        <a href="mailto:enquiry@wgbo.org.in" className="mt-5 text-sm font-semibold text-primary hover:underline">
                             Contact for details →
                         </a>
                     </div>
