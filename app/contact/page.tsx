@@ -37,23 +37,16 @@ const contactInfo = [
     {
         icon: Mail,
         label: "General Enquiries",
-        value: "info@wgbo.org.in",
-        href: "mailto:info@wgbo.org.in",
+        value: "enquiry@wgbo.org.in",
+        href: "mailto:enquiry@wgbo.org.in",
         color: "bg-amber-100 text-amber-700",
     },
     {
         icon: Mail,
-        label: "Membership",
-        value: "membership@wgbo.org.in",
-        href: "mailto:membership@wgbo.org.in",
+        label: "Awards",
+        value: "awards@wgbo.org.in",
+        href: "mailto:awards@wgbo.org.in",
         color: "bg-violet-100 text-violet-700",
-    },
-    {
-        icon: Mail,
-        label: "Support",
-        value: "support@wgbo.org.in",
-        href: "mailto:support@wgbo.org.in",
-        color: "bg-rose-100 text-rose-700",
     },
     {
         icon: Globe,
@@ -67,22 +60,22 @@ const contactInfo = [
 const departments = [
     {
         name: "Membership & Certification",
-        email: "membership@wgbo.org.in",
+        email: "enquiry@wgbo.org.in",
         description: "For membership applications, renewals, and certification enquiries.",
     },
     {
         name: "Training & Education",
-        email: "info@wgbo.org.in",
+        email: "enquiry@wgbo.org.in",
         description: "For training programmes, e-learning, and virtual learning sessions.",
     },
     {
         name: "Awards & Events",
-        email: "info@wgbo.org.in",
+        email: "awards@wgbo.org.in",
         description: "For sponsorship, awards nominations, and event registrations.",
     },
     {
         name: "General Support",
-        email: "support@wgbo.org.in",
+        email: "enquiry@wgbo.org.in",
         description: "For technical support, website issues, and general queries.",
     },
 ]
@@ -208,10 +201,7 @@ export default function ContactPage() {
                                         <div>
                                             <p className="text-sm font-semibold text-foreground">Office Hours</p>
                                             <p className="mt-1 text-sm text-muted-foreground">
-                                                Monday – Friday: 9:00 AM – 6:00 PM (IST)
-                                            </p>
-                                            <p className="text-sm text-muted-foreground">
-                                                Saturday: 9:00 AM – 1:00 PM (IST)
+                                                Monday – Saturday: 9:00 AM – 6:00 PM (IST)
                                             </p>
                                             <p className="text-sm text-muted-foreground">Sunday: Closed</p>
                                         </div>
@@ -255,10 +245,10 @@ export default function ContactPage() {
                 <section className="bg-primary py-12">
                     <div className="mx-auto max-w-4xl px-4 text-center text-primary-foreground">
                         <h2 className="font-serif text-2xl font-bold md:text-3xl">
-                            Ready to Make Green Go a Way of Life?
+                            Ready to Make Go Green a Way of Life . . . Worldwide
                         </h2>
                         <p className="mx-auto mt-3 max-w-xl text-sm text-primary-foreground/80">
-                            Join the World Green Building Organization and be part of the global movement towards sustainable construction and a greener future.
+                            Join the World Green Building Organization (WGBO) and be part of the global movement towards sustainable development and contribute to groundbreaking projects and initiatives that advance green building practices.
                         </p>
                         <div className="mt-6 flex flex-wrap items-center justify-center gap-4">
                             <a
@@ -270,11 +260,11 @@ export default function ContactPage() {
                                 Download Membership Form
                             </a>
                             <a
-                                href="mailto:membership@wgbo.org.in"
+                                href="mailto:enquiry@wgbo.org.in"
                                 className="inline-flex items-center gap-2 rounded-lg border border-primary-foreground/30 bg-primary-foreground/10 px-6 py-3 text-sm font-semibold text-primary-foreground transition-colors hover:bg-primary-foreground/20"
                             >
                                 <Mail className="h-4 w-4" />
-                                Email Membership Team
+                                Email Us
                             </a>
                             <a
                                 href="tel:+917200193771"

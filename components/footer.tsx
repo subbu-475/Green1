@@ -35,7 +35,7 @@ export function Footer() {
               </div>
             </Link>
             <p className="mt-4 max-w-sm text-sm leading-relaxed text-background/70">
-              World Green Building Organization (WGBO) is the premier certification body for sustainable construction, working towards enabling a sustainable built environment for all.
+              World Green Building Organization (WGBO) is a member-driven organisation uniting stakeholders across the built environment to drive sustainable transformation. Through collaboration and knowledge sharing, WGBO empowers built environment stakeholders to adopt green building practices and create a greener, more sustainable future for national and beyond.
             </p>
 
             <div className="mt-6 space-y-3">
@@ -49,7 +49,7 @@ export function Footer() {
               </div>
               <div className="flex items-center gap-3 text-sm text-background/70">
                 <Mail className="h-4 w-4 shrink-0 text-primary" />
-                <a href="mailto:info@wgbo.org.in" className="transition-colors hover:text-primary">info@wgbo.org.in</a>
+                <a href="mailto:enquiry@wgbo.org.in" className="transition-colors hover:text-primary">enquiry@wgbo.org.in</a>
               </div>
             </div>
           </div>

@@ -12,9 +12,9 @@ export function TopBar() {
             <Phone className="h-3.5 w-3.5" />
             <span>Call: +91-7200193771</span>
           </Link>
-          <Link href="mailto:info@wgbo.org.in" className="hidden items-center gap-1.5 hover:opacity-80 transition-opacity sm:flex">
+          <Link href="mailto:enquiry@wgbo.org.in" className="hidden items-center gap-1.5 hover:opacity-80 transition-opacity sm:flex">
             <Mail className="h-3.5 w-3.5" />
-            <span>info@wgbo.org.in</span>
+            <span>enquiry@wgbo.org.in</span>
           </Link>
         </div>
         <div className="flex items-center gap-4">
