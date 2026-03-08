@@ -194,7 +194,7 @@ export function Header() {
       </div>
 
       {mobileOpen && (
-        <div className="border-t bg-background px-4 pb-4 lg:hidden">
+        <div className="border-t bg-background px-4 pb-4 lg:hidden max-h-[calc(100vh-80px)] overflow-y-auto w-full">
           {navItems.map((item) => (
             <div key={item.label}>
               <Link
