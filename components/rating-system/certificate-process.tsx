@@ -10,7 +10,7 @@ export function CertificateProcess() {
                     <span className="inline-block rounded-full bg-primary/10 px-4 py-1.5 text-xs font-bold uppercase tracking-widest text-primary">
                         Process
                     </span>
-                    <h2 className="mt-5 font-serif text-3xl font-bold text-foreground md:text-4xl">
+                    <h2 className="mt-5 font-heading text-3xl font-bold text-foreground md:text-4xl">
                         WGBO Certificates Process &amp; Criteria
                     </h2>
                 </div>
@@ -50,7 +50,7 @@ export function CertificateProcess() {
 
                     {/* Criteria */}
                     <div className="rounded-2xl border border-border/60 bg-background p-8 shadow-sm md:p-10">
-                        <h3 className="mb-4 font-serif text-xl font-bold text-foreground">WGBO Certificates Criteria</h3>
+                        <h3 className="mb-4 font-heading text-xl font-bold text-foreground">WGBO Certificates Criteria</h3>
                         <p className="mb-4 text-sm leading-[1.8] text-muted-foreground">
                             To ensure that the criteria are kept up to date with the technological advances in the industry and to stay relevant to market needs, WGBO continuously reviews, make improvements and adjustments to the criteria.
                         </p>

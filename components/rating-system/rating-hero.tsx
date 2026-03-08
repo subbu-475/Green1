@@ -25,7 +25,7 @@ export function RatingHero() {
                     <span className="text-white/90">Rating System</span>
                 </nav>
 
-                <h1 className="mx-auto max-w-4xl font-serif text-4xl font-bold leading-tight text-white md:text-5xl lg:text-6xl">
+                <h1 className="mx-auto max-w-4xl font-heading text-4xl font-bold leading-tight text-white md:text-5xl lg:text-6xl">
                     WGBO{" "}
                     <span className="bg-gradient-to-r from-emerald-200 to-teal-200 bg-clip-text text-transparent">
                         Rating System

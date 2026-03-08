@@ -74,7 +74,7 @@ export function HeroSlider() {
               <p className="mb-3 text-sm font-semibold uppercase tracking-widest text-accent">
                 {slide.subtitle}
               </p>
-              <h1 className="mb-4 font-serif text-3xl font-bold leading-tight text-primary-foreground md:text-4xl lg:text-5xl text-balance">
+              <h1 className="mb-4 font-heading text-3xl font-bold leading-tight text-primary-foreground md:text-4xl lg:text-5xl text-balance">
                 {slide.title}
               </h1>
               <p className="mb-6 text-base leading-relaxed text-primary-foreground/80 md:text-lg">

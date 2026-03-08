@@ -46,7 +46,7 @@ export function SponsorshipBenefits() {
                     <span className="inline-block rounded-full bg-primary/10 px-4 py-1.5 text-xs font-bold uppercase tracking-widest text-primary">
                         Benefits
                     </span>
-                    <h2 className="mt-5 font-serif text-3xl font-bold text-foreground md:text-4xl">
+                    <h2 className="mt-5 font-heading text-3xl font-bold text-foreground md:text-4xl">
                         Sponsor Benefits &amp; Promotion
                     </h2>
                 </div>
@@ -54,7 +54,7 @@ export function SponsorshipBenefits() {
                 <div className="grid gap-10 lg:grid-cols-2">
                     {/* Promotion Channels */}
                     <div className="rounded-2xl border border-border/60 bg-background p-8 shadow-sm">
-                        <h3 className="mb-2 font-serif text-xl font-bold text-foreground">Promotion Networks</h3>
+                        <h3 className="mb-2 font-heading text-xl font-bold text-foreground">Promotion Networks</h3>
                         <p className="mb-6 text-sm text-muted-foreground">
                             Awards are promoted via our extended networks including:
                         </p>
@@ -72,7 +72,7 @@ export function SponsorshipBenefits() {
 
                     {/* Sponsor Benefits */}
                     <div className="rounded-2xl border border-amber-400/20 bg-gradient-to-br from-amber-500/5 to-background p-8 shadow-sm">
-                        <h3 className="mb-6 font-serif text-xl font-bold text-foreground">Sponsor Deliverables</h3>
+                        <h3 className="mb-6 font-heading text-xl font-bold text-foreground">Sponsor Deliverables</h3>
                         <ul className="space-y-3">
                             {sponsorBenefits.map((b, i) => (
                                 <li key={i} className="flex items-start gap-3">
@@ -88,7 +88,7 @@ export function SponsorshipBenefits() {
 
                 {/* Contact CTA */}
                 <div className="mx-auto mt-14 max-w-2xl overflow-hidden rounded-2xl bg-gradient-to-r from-[hsl(145,63%,28%)] to-[hsl(38,80%,45%)] p-8 text-center shadow-xl md:p-10">
-                    <p className="font-serif text-xl font-bold text-white md:text-2xl">
+                    <p className="font-heading text-xl font-bold text-white md:text-2xl">
                         Interested in Sponsorship?
                     </p>
                     <p className="mt-3 text-sm text-white/70">

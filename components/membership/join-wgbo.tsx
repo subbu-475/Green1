@@ -10,7 +10,7 @@ export function JoinWGBO() {
                     <span className="inline-block rounded-full bg-primary/10 px-4 py-1.5 text-xs font-bold uppercase tracking-widest text-primary">
                         Join Us
                     </span>
-                    <h2 className="mt-5 font-serif text-3xl font-bold text-foreground md:text-4xl lg:text-5xl">
+                    <h2 className="mt-5 font-heading text-3xl font-bold text-foreground md:text-4xl lg:text-5xl">
                         Join World Green Building Organization (WGBO)
                     </h2>
                 </div>

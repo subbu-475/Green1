@@ -1,12 +1,7 @@
 import { TopBar } from "@/components/top-bar"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
-import { AboutHero } from "@/components/about/about-hero"
-import { WGBOOverview } from "@/components/about/wgbo-overview"
-import { WGBOVision } from "@/components/about/wgbo-vision"
-import { WGBOWhat } from "@/components/about/wgbo-what"
-import { WGBOTools } from "@/components/about/wgbo-tools"
-import { WGBOFocus } from "@/components/about/wgbo-focus"
+import { AboutContent } from "@/components/about/about-content"
 
 import type { Metadata } from "next"
 
@@ -22,12 +17,7 @@ export default function AboutPage() {
             <TopBar />
             <Header />
             <main>
-                <AboutHero />
-                <WGBOOverview />
-                <WGBOVision />
-                <WGBOWhat />
-                <WGBOTools />
-                <WGBOFocus />
+                <AboutContent />
             </main>
             <Footer />
         </>

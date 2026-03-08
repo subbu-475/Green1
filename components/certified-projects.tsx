@@ -65,7 +65,7 @@ export function CertifiedProjects() {
     <section className="py-16">
       <div className="mx-auto max-w-7xl px-4">
         <div className="mb-10 flex items-center justify-between">
-          <h2 className="font-serif text-3xl font-bold text-foreground md:text-4xl">
+          <h2 className="font-heading text-3xl font-bold text-foreground md:text-4xl">
             WGBO Recent <span className="text-primary">Certified Projects</span>
           </h2>
           <div className="flex gap-2">

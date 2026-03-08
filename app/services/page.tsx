@@ -1,21 +1,13 @@
 import { TopBar } from "@/components/top-bar"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
-import { ServicesHero } from "@/components/services/services-hero"
-import { TrainingSection } from "@/components/services/training-section"
-import { MembershipOverview } from "@/components/services/membership-overview"
-import { MembershipLevels } from "@/components/services/membership-levels"
-import { ProfessionalMembership } from "@/components/services/professional-membership"
-import { CertificationBoard } from "@/components/services/certification-board"
-import { AccreditationTypes } from "@/components/services/accreditation-types"
-import { AccreditationBenefits } from "@/components/services/accreditation-benefits"
+import { ServicesContent } from "@/components/services/services-content"
 
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
     title: "Our Services | World Green Building Organization",
-    description:
-        "Explore WGBO services — training, membership, certification, and professional accreditation for green building professionals.",
+    description: "Explore WGBO services — training, e-learning, campaigns, publications, and more.",
 }
 
 export default function ServicesPage() {
@@ -24,14 +16,7 @@ export default function ServicesPage() {
             <TopBar />
             <Header />
             <main>
-                <ServicesHero />
-                <TrainingSection />
-                <MembershipOverview />
-                <MembershipLevels />
-                <ProfessionalMembership />
-                <CertificationBoard />
-                <AccreditationTypes />
-                <AccreditationBenefits />
+                <ServicesContent />
             </main>
             <Footer />
         </>

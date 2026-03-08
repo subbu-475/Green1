@@ -20,7 +20,7 @@ export function InitiativesMarquee() {
     <section className="bg-secondary py-12">
       <div className="mx-auto max-w-7xl px-4">
         <div className="mb-8 text-center">
-          <h2 className="font-serif text-3xl font-bold text-foreground md:text-4xl">
+          <h2 className="font-heading text-3xl font-bold text-foreground md:text-4xl">
             WGBO Initiatives <span className="text-primary">Catalyzing the Movement</span>
           </h2>
         </div>

@@ -25,7 +25,7 @@ export function KeyAspects() {
                     <span className="inline-block rounded-full bg-primary/10 px-4 py-1.5 text-xs font-bold uppercase tracking-widest text-primary">
                         Key Aspects
                     </span>
-                    <h2 className="mt-5 font-serif text-3xl font-bold text-foreground md:text-4xl lg:text-5xl">
+                    <h2 className="mt-5 font-heading text-3xl font-bold text-foreground md:text-4xl lg:text-5xl">
                         Key Aspects of WGBO Certification
                     </h2>
                 </div>
@@ -49,7 +49,7 @@ export function KeyAspects() {
                 {/* Categories Evaluated */}
                 <div className="mx-auto max-w-4xl">
                     <div className="rounded-2xl border border-primary/20 bg-primary/5 p-8">
-                        <h3 className="mb-6 text-center font-serif text-xl font-bold text-foreground">Categories Evaluated</h3>
+                        <h3 className="mb-6 text-center font-heading text-xl font-bold text-foreground">Categories Evaluated</h3>
                         <p className="mb-6 text-center text-sm text-muted-foreground">
                             Projects are assessed on the following categories:
                         </p>

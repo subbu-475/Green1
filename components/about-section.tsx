@@ -39,7 +39,7 @@ export function AboutSection() {
       <div className="mx-auto max-w-7xl px-4">
         <div className="mb-4 text-center">
           <p className="text-sm font-semibold uppercase tracking-widest text-primary">About Us</p>
-          <h2 className="mt-2 font-serif text-3xl font-bold text-foreground md:text-4xl text-balance">
+          <h2 className="mt-2 font-heading text-3xl font-bold text-foreground md:text-4xl text-balance">
             About Us
           </h2>
         </div>
@@ -64,7 +64,7 @@ export function AboutSection() {
             </div>
 
             {activeContent.content.heading && (
-              <h3 className="mb-3 font-serif text-xl font-bold text-foreground">
+              <h3 className="mb-3 font-heading text-xl font-bold text-foreground">
                 {activeContent.content.heading}
               </h3>
             )}

@@ -28,7 +28,7 @@ export function ProfessionalMembership() {
                     <span className="inline-block rounded-full bg-primary/10 px-4 py-1.5 text-xs font-bold uppercase tracking-widest text-primary">
                         Professional
                     </span>
-                    <h2 className="mt-5 font-serif text-3xl font-bold text-foreground md:text-4xl">
+                    <h2 className="mt-5 font-heading text-3xl font-bold text-foreground md:text-4xl">
                         Professional Membership
                     </h2>
                     <p className="mx-auto mt-4 max-w-3xl text-sm text-muted-foreground">
@@ -40,7 +40,7 @@ export function ProfessionalMembership() {
                     {/* Professional Path */}
                     <div>
                         <div className="rounded-2xl border border-border/60 bg-background p-8 shadow-sm">
-                            <h3 className="mb-4 font-serif text-xl font-bold text-foreground">Becoming a Professional Member</h3>
+                            <h3 className="mb-4 font-heading text-xl font-bold text-foreground">Becoming a Professional Member</h3>
                             <p className="mb-4 text-sm leading-[1.8] text-muted-foreground">
                                 Not everyone has the degree sometimes required or enjoys classroom exams. By{" "}
                                 <strong className="text-foreground">submission of work/career credentials, résumé, professional references, seminar certificates, education, and peer testimonies</strong>,
@@ -88,7 +88,7 @@ export function ProfessionalMembership() {
                                 <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary text-white">
                                     <Shield className="h-5 w-5" />
                                 </div>
-                                <h3 className="font-serif text-xl font-bold text-foreground">Professional Code of Conduct</h3>
+                                <h3 className="font-heading text-xl font-bold text-foreground">Professional Code of Conduct</h3>
                             </div>
                             <p className="mb-5 text-xs text-muted-foreground">
                                 Members of WGBO, by virtue of their acceptance of membership, are bound to the following Code of Ethics:
@@ -105,7 +105,7 @@ export function ProfessionalMembership() {
                             </ul>
 
                             <div className="mt-6 rounded-xl bg-primary/10 p-4 text-center">
-                                <p className="font-serif text-sm font-bold italic text-primary">
+                                <p className="font-heading text-sm font-bold italic text-primary">
                                     &ldquo;Making Go Green a Way of Life . . . Worldwide&rdquo;
                                 </p>
                             </div>

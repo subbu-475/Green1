@@ -22,7 +22,7 @@ export function CodeOfConduct() {
                     <span className="inline-block rounded-full bg-primary/10 px-4 py-1.5 text-xs font-bold uppercase tracking-widest text-primary">
                         Ethics
                     </span>
-                    <h2 className="mt-5 font-serif text-3xl font-bold text-foreground md:text-4xl">
+                    <h2 className="mt-5 font-heading text-3xl font-bold text-foreground md:text-4xl">
                         Professional Code of Conduct
                     </h2>
                     <p className="mx-auto mt-4 max-w-3xl text-sm text-muted-foreground">
@@ -35,7 +35,7 @@ export function CodeOfConduct() {
                         <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary text-white">
                             <Shield className="h-5 w-5" />
                         </div>
-                        <h3 className="font-serif text-xl font-bold text-foreground">Code of Ethics</h3>
+                        <h3 className="font-heading text-xl font-bold text-foreground">Code of Ethics</h3>
                     </div>
                     <p className="mb-6 text-sm text-muted-foreground">
                         Members of the World Green Building Organization (WGBO), by virtue of their acceptance of membership in the World Green Building Organization (WGBO), are bound to the following Code of Ethics regarding their activities associated with the World Green Building Organization (WGBO):
@@ -53,7 +53,7 @@ export function CodeOfConduct() {
                     </ul>
 
                     <div className="mt-6 rounded-xl bg-primary/10 p-5 text-center">
-                        <p className="font-serif text-lg font-bold italic text-primary">
+                        <p className="font-heading text-lg font-bold italic text-primary">
                             &ldquo;Making Go Green a Way of Life . . . Worldwide&rdquo;
                         </p>
                     </div>

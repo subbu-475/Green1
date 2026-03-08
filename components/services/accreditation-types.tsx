@@ -87,7 +87,7 @@ export function AccreditationTypes() {
                     <span className="inline-block rounded-full bg-primary/10 px-4 py-1.5 text-xs font-bold uppercase tracking-widest text-primary">
                         Accreditation
                     </span>
-                    <h2 className="mt-5 font-serif text-3xl font-bold text-foreground md:text-4xl lg:text-5xl">
+                    <h2 className="mt-5 font-heading text-3xl font-bold text-foreground md:text-4xl lg:text-5xl">
                         Accreditation Types
                     </h2>
                 </div>
@@ -152,7 +152,7 @@ export function AccreditationTypes() {
                     <div className="space-y-6">
                         {/* Who */}
                         <div className="rounded-2xl border border-primary/20 bg-primary/5 p-6">
-                            <h4 className="mb-4 flex items-center gap-2 font-serif text-lg font-bold text-foreground">
+                            <h4 className="mb-4 flex items-center gap-2 font-heading text-lg font-bold text-foreground">
                                 <Users className="h-5 w-5 text-primary" /> Who is it for?
                             </h4>
                             <ul className="space-y-2">
@@ -170,7 +170,7 @@ export function AccreditationTypes() {
                         {/* Professional Profile */}
                         {active.profiles && (
                             <div className="rounded-2xl border border-border/60 bg-background p-6 shadow-sm">
-                                <h4 className="mb-4 flex items-center gap-2 font-serif text-lg font-bold text-foreground">
+                                <h4 className="mb-4 flex items-center gap-2 font-heading text-lg font-bold text-foreground">
                                     <GraduationCap className="h-5 w-5 text-primary" /> Professional Profile
                                 </h4>
                                 <ul className="space-y-2">

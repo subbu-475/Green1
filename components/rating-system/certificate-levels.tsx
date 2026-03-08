@@ -30,7 +30,7 @@ export function CertificateLevels() {
                     <span className="inline-block rounded-full bg-primary/10 px-4 py-1.5 text-xs font-bold uppercase tracking-widest text-primary">
                         Levels
                     </span>
-                    <h2 className="mt-5 font-serif text-3xl font-bold text-foreground md:text-4xl lg:text-5xl">
+                    <h2 className="mt-5 font-heading text-3xl font-bold text-foreground md:text-4xl lg:text-5xl">
                         WGBO Certificates Scheme and Levels
                     </h2>
                     <p className="mx-auto mt-4 max-w-3xl text-sm text-muted-foreground">
@@ -63,7 +63,7 @@ export function CertificateLevels() {
 
                 {/* Certification Process */}
                 <div className="mx-auto mt-14 max-w-4xl">
-                    <h3 className="mb-6 text-center font-serif text-xl font-bold text-foreground">WGBO Certificates Process</h3>
+                    <h3 className="mb-6 text-center font-heading text-xl font-bold text-foreground">WGBO Certificates Process</h3>
                     <div className="flex flex-wrap items-center justify-center gap-2">
                         {processSteps.map((step, i) => (
                             <div key={step} className="flex items-center gap-2">

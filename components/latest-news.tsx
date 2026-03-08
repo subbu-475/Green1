@@ -21,7 +21,7 @@ export function LatestNews() {
     <section className="py-16">
       <div className="mx-auto max-w-7xl px-4">
         <div className="mb-8 flex items-center gap-3">
-          <h2 className="font-serif text-3xl font-bold text-foreground">
+          <h2 className="font-heading text-3xl font-bold text-foreground">
             Latest in <span className="text-primary">WGBO</span>
           </h2>
           <div className="h-1 flex-1 rounded bg-primary/20" />

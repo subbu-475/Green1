@@ -34,7 +34,7 @@ export function WSOObjectives() {
                     <span className="inline-block rounded-full bg-primary/10 px-4 py-1.5 text-xs font-bold uppercase tracking-widest text-primary">
                         Our Objectives
                     </span>
-                    <h2 className="mt-5 font-serif text-3xl font-bold text-foreground md:text-4xl lg:text-5xl">
+                    <h2 className="mt-5 font-heading text-3xl font-bold text-foreground md:text-4xl lg:text-5xl">
                         WSO Core Objectives
                     </h2>
                     <p className="mx-auto mt-4 max-w-2xl text-base text-muted-foreground">
@@ -72,7 +72,7 @@ export function WSOObjectives() {
                 {/* Theme Banner */}
                 <div className="mx-auto mt-14 max-w-3xl overflow-hidden rounded-2xl bg-gradient-to-r from-[hsl(145,63%,28%)] to-[hsl(160,50%,25%)] p-8 text-center shadow-xl md:p-12">
                     <Target className="mx-auto mb-4 h-10 w-10 text-white/40" />
-                    <blockquote className="font-serif text-xl font-bold italic text-white md:text-2xl">
+                    <blockquote className="font-heading text-xl font-bold italic text-white md:text-2xl">
                         &ldquo;Making Safety a Way of Life . . . Worldwide.&rdquo;
                     </blockquote>
                     <p className="mt-3 text-sm font-medium text-white/60">— The WSO&apos;s Overall Theme</p>

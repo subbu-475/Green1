@@ -24,7 +24,7 @@ export function CertificateBenefits() {
                     <span className="inline-block rounded-full bg-primary/10 px-4 py-1.5 text-xs font-bold uppercase tracking-widest text-primary">
                         Benefits
                     </span>
-                    <h2 className="mt-5 font-serif text-3xl font-bold text-foreground md:text-4xl lg:text-5xl">
+                    <h2 className="mt-5 font-heading text-3xl font-bold text-foreground md:text-4xl lg:text-5xl">
                         WGBO Certificates Benefits
                     </h2>
                 </div>
@@ -49,7 +49,7 @@ export function CertificateBenefits() {
                     {/* Sidebar — 2 cols */}
                     <div className="space-y-6 lg:col-span-2">
                         <div className="rounded-2xl border border-border/60 bg-background p-6 shadow-sm">
-                            <h3 className="mb-4 font-serif text-lg font-bold text-foreground">Certified Products</h3>
+                            <h3 className="mb-4 font-heading text-lg font-bold text-foreground">Certified Products</h3>
                             <p className="text-sm leading-[1.8] text-muted-foreground">
                                 Once a product is certified, WGBO will issue the product a certificate. Only certified products will be listed on the WGBO Certification Directory, which is maintained on the World Green Building Organization&apos;s (WGBO) website. This Interactive Directory is actively used by building industry professionals such as consultants, contractors, building developers and owners.
                             </p>

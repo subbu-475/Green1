@@ -49,7 +49,7 @@ export function WGBOWhat() {
                     <span className="inline-block rounded-full bg-primary/10 px-4 py-1.5 text-xs font-bold uppercase tracking-widest text-primary">
                         What is WGBO?
                     </span>
-                    <h2 className="mt-5 font-serif text-3xl font-bold text-foreground md:text-4xl lg:text-5xl">
+                    <h2 className="mt-5 font-heading text-3xl font-bold text-foreground md:text-4xl lg:text-5xl">
                         What is World Green Building Organization (WGBO)?
                     </h2>
                     <p className="mx-auto mt-4 max-w-3xl text-base text-muted-foreground">
@@ -76,7 +76,7 @@ export function WGBOWhat() {
 
                         {/* Principles Cards */}
                         <div className="mt-8">
-                            <h3 className="mb-6 font-serif text-xl font-bold text-foreground">
+                            <h3 className="mb-6 font-heading text-xl font-bold text-foreground">
                                 Buildings that are designed based on this principle:
                             </h3>
                             <div className="grid gap-6 md:grid-cols-3">
@@ -106,7 +106,7 @@ export function WGBOWhat() {
                     {/* Aims — 2 cols */}
                     <div className="lg:col-span-2">
                         <div className="rounded-2xl border border-primary/20 bg-primary/5 p-6">
-                            <h3 className="mb-6 text-center font-serif text-xl font-bold text-foreground">Our Aims</h3>
+                            <h3 className="mb-6 text-center font-heading text-xl font-bold text-foreground">Our Aims</h3>
                             <div className="space-y-4">
                                 {aims.map((aim, i) => (
                                     <div

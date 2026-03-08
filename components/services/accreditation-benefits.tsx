@@ -53,7 +53,7 @@ export function AccreditationBenefits() {
                     <span className="inline-block rounded-full bg-primary/10 px-4 py-1.5 text-xs font-bold uppercase tracking-widest text-primary">
                         Benefits &amp; CPD
                     </span>
-                    <h2 className="mt-5 font-serif text-3xl font-bold text-foreground md:text-4xl">
+                    <h2 className="mt-5 font-heading text-3xl font-bold text-foreground md:text-4xl">
                         Accreditation Benefits &amp; CPD
                     </h2>
                 </div>
@@ -61,7 +61,7 @@ export function AccreditationBenefits() {
                 <div className="grid gap-10 lg:grid-cols-2">
                     {/* Benefits */}
                     <div className="rounded-2xl border border-primary/20 bg-gradient-to-br from-primary/5 to-background p-8 shadow-sm">
-                        <h3 className="mb-6 font-serif text-xl font-bold text-foreground">Accreditation Benefits</h3>
+                        <h3 className="mb-6 font-heading text-xl font-bold text-foreground">Accreditation Benefits</h3>
                         <ul className="space-y-3">
                             {benefits.map((b, i) => (
                                 <li key={i} className="flex items-start gap-3">
@@ -79,7 +79,7 @@ export function AccreditationBenefits() {
                         <div className="rounded-2xl border border-border/60 bg-background p-8 shadow-sm">
                             <div className="mb-5 flex items-center gap-3">
                                 <RefreshCw className="h-5 w-5 text-primary" />
-                                <h3 className="font-serif text-xl font-bold text-foreground">Continuing Professional Development</h3>
+                                <h3 className="font-heading text-xl font-bold text-foreground">Continuing Professional Development</h3>
                             </div>
                             <p className="mb-6 text-sm leading-[1.8] text-muted-foreground">
                                 CPD is enabled by a robust learning and development framework comprising technical seminars, webinars, learning journeys, conferences and training courses. WGBO cross-recognises relevant activities with other industry associations for mutual CPD accreditation.

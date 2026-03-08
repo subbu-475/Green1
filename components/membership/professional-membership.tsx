@@ -16,7 +16,7 @@ export function ProfessionalMembership() {
                     <span className="inline-block rounded-full bg-primary/10 px-4 py-1.5 text-xs font-bold uppercase tracking-widest text-primary">
                         Professional
                     </span>
-                    <h2 className="mt-5 font-serif text-3xl font-bold text-foreground md:text-4xl">
+                    <h2 className="mt-5 font-heading text-3xl font-bold text-foreground md:text-4xl">
                         Candidate Evaluation Form
                     </h2>
                 </div>
@@ -58,7 +58,7 @@ export function ProfessionalMembership() {
 
                     {/* Student Membership */}
                     <div className="mt-8 rounded-2xl border border-border/60 bg-background p-8 shadow-sm md:p-10">
-                        <h3 className="mb-4 font-serif text-xl font-bold text-foreground">World Green Building Organization (WGBO) Student Membership</h3>
+                        <h3 className="mb-4 font-heading text-xl font-bold text-foreground">World Green Building Organization (WGBO) Student Membership</h3>
                         <div className="space-y-4 text-sm leading-[1.8] text-muted-foreground">
                             <p>
                                 While the World Green Building Organization (WGBO) Student Membership, the Student Membership category is available for any student in a college/university undergraduate or graduate/postgraduate degree program. There is no cost associated with the World Green Building Organization (WGBO) Student Membership as long as the member provides annual documentation of full-time student status.

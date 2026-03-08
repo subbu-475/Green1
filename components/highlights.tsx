@@ -45,7 +45,7 @@ export function Highlights() {
                     <p className="text-sm font-semibold uppercase tracking-widest text-primary">
                         What We Offer
                     </p>
-                    <h2 className="mt-2 font-serif text-3xl font-bold text-foreground md:text-4xl text-balance">
+                    <h2 className="mt-2 font-heading text-3xl font-bold text-foreground md:text-4xl text-balance">
                         Empowering Sustainable <span className="text-primary">Construction</span>
                     </h2>
                     <p className="mx-auto mt-3 max-w-2xl text-base text-muted-foreground">

@@ -27,11 +27,11 @@ export function Footer() {
                 alt="WGBO Logo"
                 width={128}
                 height={128}
-                className="h-12 w-12 object-contain"
+                className="h-16 w-16 md:h-20 md:w-20 object-contain"
               />
               <div className="flex flex-col">
-                <span className="text-lg font-bold leading-tight text-primary">WGBO</span>
-                <span className="text-[10px] font-medium leading-tight text-background/60">World Green Building Organization</span>
+                <span className="text-2xl font-bold leading-tight text-primary font-heading md:text-3xl">WGBO</span>
+                {/* <span className="text-xs font-semibold leading-tight text-background/60 md:text-sm">World Green Building Organization</span> */}
               </div>
             </Link>
             <p className="mt-4 max-w-sm text-sm leading-relaxed text-background/70">

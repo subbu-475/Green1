@@ -16,7 +16,7 @@ export function CertificationBoard() {
                     <span className="inline-block rounded-full bg-primary/10 px-4 py-1.5 text-xs font-bold uppercase tracking-widest text-primary">
                         Certification
                     </span>
-                    <h2 className="mt-5 font-serif text-3xl font-bold text-foreground md:text-4xl lg:text-5xl">
+                    <h2 className="mt-5 font-heading text-3xl font-bold text-foreground md:text-4xl lg:text-5xl">
                         WGBO Certification Board
                     </h2>
                 </div>
@@ -53,7 +53,7 @@ export function CertificationBoard() {
                         <div className="rounded-2xl border border-primary/20 bg-primary/5 p-8">
                             <div className="mb-5 flex items-center gap-3">
                                 <Layers className="h-6 w-6 text-primary" />
-                                <h3 className="font-serif text-xl font-bold text-foreground">World Green Star Professional Qualification Scheme</h3>
+                                <h3 className="font-heading text-xl font-bold text-foreground">World Green Star Professional Qualification Scheme</h3>
                             </div>
                             <p className="mb-5 text-sm leading-[1.8] text-muted-foreground">
                                 The scheme aims to <strong className="text-foreground">uplift, upskill and recognise</strong> green building competencies of professionals in the built environment sector. A key feature is the establishment of a{" "}

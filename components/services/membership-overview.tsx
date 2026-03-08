@@ -32,7 +32,7 @@ export function MembershipOverview() {
                     <span className="inline-block rounded-full bg-primary/10 px-4 py-1.5 text-xs font-bold uppercase tracking-widest text-primary">
                         Membership
                     </span>
-                    <h2 className="mt-5 font-serif text-3xl font-bold text-foreground md:text-4xl lg:text-5xl">
+                    <h2 className="mt-5 font-heading text-3xl font-bold text-foreground md:text-4xl lg:text-5xl">
                         Membership &amp; Benefits
                     </h2>
                 </div>
@@ -79,7 +79,7 @@ export function MembershipOverview() {
                     {/* Benefits — 2 cols */}
                     <div className="lg:col-span-2">
                         <div className="rounded-2xl border border-primary/20 bg-primary/5 p-6">
-                            <h3 className="mb-6 text-center font-serif text-xl font-bold text-foreground">Membership Benefits</h3>
+                            <h3 className="mb-6 text-center font-heading text-xl font-bold text-foreground">Membership Benefits</h3>
                             <div className="space-y-3">
                                 {benefits.map((b, i) => (
                                     <div

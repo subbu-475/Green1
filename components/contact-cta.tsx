@@ -5,10 +5,10 @@ import Link from "next/link"
 
 export function ContactCTA() {
   return (
-    <section id="contact" className="py-16">
+    <section id="contact" className="py-8">
       <div className="mx-auto max-w-7xl px-4">
         <div className="overflow-hidden rounded-2xl bg-primary p-10 text-center md:p-16">
-          <h2 className="font-serif text-3xl font-bold text-primary-foreground md:text-4xl text-balance">
+          <h2 className="font-heading text-3xl font-bold text-primary-foreground md:text-4xl text-balance">
             Making Green Go a Way of Life… Worldwide
           </h2>
           <p className="mx-auto mt-4 max-w-lg text-base leading-relaxed text-primary-foreground/80">
