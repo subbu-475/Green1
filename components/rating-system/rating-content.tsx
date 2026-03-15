@@ -11,7 +11,7 @@ export function RatingContent() {
                     <h1 className="text-3xl font-extrabold leading-tight text-emerald-700 md:text-5xl font-heading tracking-tight mb-4">
                         Rating System
                     </h1>
-                    <p className="text-lg md:text-xl text-gray-600 font-medium">
+                    <p className="text-lg md:text-xl text-black-800 font-medium">
                         Rating System for building design and construction, operation, fitouts and communities
                     </p>
                 </div>
@@ -31,7 +31,7 @@ export function RatingContent() {
                     </h2>
                     <div className="mt-5 h-[3px] w-20 rounded-full bg-emerald-500" />
 
-                    <div className="mt-6 text-[16px] leading-[1.8] text-gray-600 space-y-4 max-w-5xl">
+                    <div className="mt-6 text-[16px] leading-[1.8] text-black-800 space-y-4 max-w-5xl">
                         <p>
                             The WGBO certification Scheme advances the built environment to one that is greener and more carbon-efficient while facilitating sustainable procurement. The certification ensures that sustainability is integrated throughout the design and manufacturing process of products.
                         </p>
@@ -48,7 +48,7 @@ export function RatingContent() {
 
                     <div className="mt-8 rounded-xl bg-white p-6 md:p-8 shadow-sm border border-gray-100">
                         <h3 className="text-xl font-bold text-gray-900 font-heading mb-4">Key Aspects of World Green Building Organization (WGBO) Certification</h3>
-                        <div className="space-y-4 text-[15.5px] leading-[1.7] text-gray-600">
+                        <div className="space-y-4 text-[15.5px] leading-[1.7] text-black-800">
                             <p>
                                 <strong className="text-gray-900">Purpose:</strong> To promote sustainable, environmentally friendly, and energy-efficient building practices.
                             </p>
@@ -77,7 +77,7 @@ export function RatingContent() {
                     </h2>
                     <div className="mt-5 h-[3px] w-20 rounded-full bg-emerald-500" />
 
-                    <div className="mt-6 text-[16px] leading-[1.8] text-gray-600 space-y-4 max-w-5xl">
+                    <div className="mt-6 text-[16px] leading-[1.8] text-black-800 space-y-4 max-w-5xl">
                         <p>
                             The WGBO Certification Scheme is a certification for green building product, and evaluates the sustainability performance of these products based on scientific and engineering principles. It is a voluntary certification scheme with a tiered rating system of one of Five levels, where a higher rating indicates better sustainability performance.
                         </p>
@@ -135,7 +135,7 @@ export function RatingContent() {
                             <p className="text-gray-700 font-medium mb-3">
                                 Invoice Issued and Payment &gt; Submit application &gt; Evaluation &gt; Peer Review &gt; Acknowledgement of points and certificate level &gt; User Agreement &gt; Issuance of Certificate
                             </p>
-                            <ul className="list-disc pl-6 space-y-2 text-gray-600 mt-4">
+                            <ul className="list-disc pl-6 space-y-2 text-black-800 mt-4">
                                 <li>Project teams must meet mandatory prerequisites and select optional credits to earn points.</li>
                                 <li>The time taken to complete the certification process varies and depends on how well-prepared companies are with the required test reports and other documentary evidences.</li>
                             </ul>
@@ -171,7 +171,7 @@ export function RatingContent() {
                     </h2>
                     <div className="mt-5 h-[3px] w-20 rounded-full bg-emerald-500" />
 
-                    <div className="mt-6 text-[16px] leading-[1.8] text-gray-600 max-w-5xl">
+                    <div className="mt-6 text-[16px] leading-[1.8] text-black-800 max-w-5xl">
                         <p className="mb-6">
                             Once a product is certified, WGBO will issue the product a certificate. Only certified products will be listed on the WGBO Certification Directory, which is maintained on the World Green Building Organization's (WGBO) website. This Interactive Directory is actively used by building industry professionals such as consultants, contractors, building developers and owners. Stakeholders can demand that products/ materials used for a building are WGBO certified. Certified products can gain credits under various green building rating tools.
                         </p>
@@ -215,7 +215,7 @@ export function RatingContent() {
                     </h2>
                     <div className="mt-5 h-[3px] w-20 rounded-full bg-emerald-500" />
 
-                    <div className="mt-6 text-[16px] leading-[1.8] text-gray-600 max-w-4xl space-y-4">
+                    <div className="mt-6 text-[16px] leading-[1.8] text-black-800 max-w-4xl space-y-4">
                         <p>
                             The WGBO certification scheme is one of the key standards and benchmarks for green building products in the building and construction industry. Products and materials certified by the WGBO are highly recognised in national.
                         </p>
@@ -243,7 +243,7 @@ export function RatingContent() {
                     </h2>
                     <div className="mt-5 h-[3px] w-20 rounded-full bg-emerald-500" />
 
-                    <div className="mt-6 text-[16px] leading-[1.8] text-gray-600 max-w-5xl space-y-6">
+                    <div className="mt-6 text-[16px] leading-[1.8] text-black-800 max-w-5xl space-y-6">
                         <p>
                             As part of the World Green Building Organization (WGBO) certification process, applicants will need to have their product(s) independently tested and assessed by an accredited third-party testing laboratory. To reduce time and effort in identifying appropriate laboratories, WGBO works with a number of such testing laboratories that can provide the necessary testing and calibration services.
                         </p>

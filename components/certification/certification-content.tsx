@@ -32,7 +32,7 @@ export function CertificationContent() {
                     </h2>
                     <div className="mt-5 h-[3px] w-20 rounded-full bg-emerald-500" />
 
-                    <div className="mt-6 text-[16px] leading-[1.8] text-gray-600 space-y-4 max-w-6xl">
+                    <div className="mt-6 text-[16px] leading-[1.8] text-black-800 space-y-4 max-w-6xl">
                         <p>
                             World Green Building Organization (WGBO) Certification Board is an independent body of the World Green Building Organization (WGBO) Board of Directors.
                         </p>
@@ -66,7 +66,7 @@ export function CertificationContent() {
                     </h2>
                     <div className="mt-5 h-[3px] w-20 rounded-full bg-emerald-500" />
 
-                    <div className="mt-6 text-[16px] leading-[1.8] text-gray-600 space-y-4 max-w-6xl">
+                    <div className="mt-6 text-[16px] leading-[1.8] text-black-800 space-y-4 max-w-6xl">
                         <p>
                             The accelerated push for sustainability necessitates deepening of the core knowledge and expertise of green building professionals. Environmental Sustainability (ES) consultants, Architects, Engineers, Contractors, Project Managers, Facilities Managers and other built environment professionals directly contribute to the quality of our places and spaces and by extension, to national climate goals.
                         </p>
@@ -141,7 +141,7 @@ export function CertificationContent() {
                     </h2>
                     <div className="mt-5 h-[3px] w-20 rounded-full bg-emerald-500" />
 
-                    <div className="mt-6 text-[16px] leading-[1.8] text-gray-600 space-y-4 max-w-6xl">
+                    <div className="mt-6 text-[16px] leading-[1.8] text-black-800 space-y-4 max-w-6xl">
                         <p>
                             A foundation-level accreditation for new industry entrants or non-technical built environment related professionals seeking to pursue a career in the greening of the built environment or to demonstrate competence in the fundamentals of green building. The WGBA certification denotes a core understanding of sustainability and green building.
                         </p>
@@ -250,7 +250,7 @@ export function CertificationContent() {
                     </h2>
                     <div className="mt-5 h-[3px] w-20 rounded-full bg-emerald-500" />
 
-                    <div className="mt-6 text-[16px] leading-[1.8] text-gray-600 space-y-4 max-w-6xl">
+                    <div className="mt-6 text-[16px] leading-[1.8] text-black-800 space-y-4 max-w-6xl">
                         <p>
                             The central accreditation for experienced technical professionals in the built environment industry with 3-5 years' experience in World Green Building projects. A WGBAP possesses a deep understanding of National environmental sustainability legislative framework and green building performance standards as well as mastery of the World Green Building certification scheme.
                         </p>
@@ -347,7 +347,7 @@ export function CertificationContent() {
                     </h2>
                     <div className="mt-5 h-[3px] w-20 rounded-full bg-emerald-500" />
 
-                    <div className="mt-6 text-[16px] leading-[1.8] text-gray-600 space-y-4 max-w-6xl">
+                    <div className="mt-6 text-[16px] leading-[1.8] text-black-800 space-y-4 max-w-6xl">
                         <p>
                             The central accreditation for experienced technical professionals in the built environment industry with 5 years' experience in World Green Building projects. A WGBAAP possesses a deep understanding of National environmental sustainability legislative framework and green building performance standards as well as mastery of the World Green Building certification scheme.
                         </p>
@@ -444,7 +444,7 @@ export function CertificationContent() {
                     </h2>
                     <div className="mt-5 h-[3px] w-20 rounded-full bg-emerald-500" />
 
-                    <div className="mt-6 text-[16px] leading-[1.8] text-gray-600 max-w-6xl">
+                    <div className="mt-6 text-[16px] leading-[1.8] text-black-800 max-w-6xl">
                         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-2 mt-6">
                             {[
                                 "Understand the drivers of green building in national and equip yourself with key knowledge on green building design strategies.",
@@ -482,7 +482,7 @@ export function CertificationContent() {
                     </h2>
                     <div className="mt-5 h-[3px] w-20 rounded-full bg-emerald-500" />
 
-                    <div className="mt-6 text-[16px] leading-[1.8] text-gray-600 space-y-6 max-w-6xl">
+                    <div className="mt-6 text-[16px] leading-[1.8] text-black-800 space-y-6 max-w-6xl">
                         <p>
                             The continuing professional development (CPD) of WGSPs is enabled by a robust learning and development framework comprising technical seminars, webinars, learning journeys, conferences and training courses. WGBO also actively works with other industry associations and organisations to cross-recognise relevant activities for mutual CPD accreditation, allowing WGSPs to concurrently fulfil other professional renewal requirements.
                         </p>
@@ -535,7 +535,7 @@ export function CertificationContent() {
                     </h2>
                     <div className="mt-5 h-[3px] w-20 rounded-full bg-emerald-500" />
 
-                    <div className="mt-6 text-[16px] leading-[1.8] text-gray-600 space-y-6 max-w-6xl">
+                    <div className="mt-6 text-[16px] leading-[1.8] text-black-800 space-y-6 max-w-6xl">
                         <div>
                             <h3 className="text-xl font-bold text-gray-900 font-heading mb-3">Non-Discrimination Policy</h3>
                             <p>
@@ -636,7 +636,7 @@ export function CertificationContent() {
                     </h2>
                     <div className="mt-5 h-[3px] w-20 rounded-full bg-emerald-500" />
 
-                    <div className="mt-6 text-[16px] leading-[1.8] text-gray-600 space-y-6 max-w-6xl">
+                    <div className="mt-6 text-[16px] leading-[1.8] text-black-800 space-y-6 max-w-6xl">
                         <p>
                             To apply for any Certification with WGBO, you must first become an Affiliate Member. You will need to submit the following:
                         </p>

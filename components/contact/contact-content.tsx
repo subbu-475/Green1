@@ -142,7 +142,7 @@ export function ContactContent() {
                                 className="rounded-xl border border-gray-100 bg-gray-50/50 p-6 shadow-sm transition-all hover:border-emerald-200 hover:shadow-md"
                             >
                                 <h3 className="text-[17px] font-bold text-gray-900 font-heading">{dept.name}</h3>
-                                <p className="mt-2 text-sm leading-relaxed text-gray-600">
+                                <p className="mt-2 text-sm leading-relaxed text-black-800">
                                     {dept.description}
                                 </p>
                                 <a
@@ -200,7 +200,7 @@ export function ContactContent() {
                                     <p className="mt-2 text-gray-900 font-medium">
                                         Monday – Saturday: 9:00 AM – 6:00 PM (IST)
                                     </p>
-                                    <p className="mt-1 text-gray-600">Sunday: Closed</p>
+                                    <p className="mt-1 text-black-800">Sunday: Closed</p>
                                 </div>
                             </div>
                         </div>

@@ -1,6 +1,20 @@
 "use client"
 
+import Image from "next/image"
 import { Shield, Leaf, Heart, CloudSun, TreePine } from "lucide-react"
+import {
+    Carousel,
+    CarouselContent,
+    CarouselItem,
+} from "@/components/ui/carousel"
+import Autoplay from "embla-carousel-autoplay"
+
+const purposeImages = [
+    { src: "/images/Purpose1.jpg", alt: "Modern sustainable green building with solar panels" },
+    { src: "/images/Purpose2.jpg", alt: "Sustainable corporate office lobby with living walls" },
+    { src: "/images/Purpose3.jpg", alt: "Zero-emission city skyline with renewable energy" },
+    { src: "/images/Purpose5.jpg", alt: "Zero-emission city skyline with renewable energy" },
+]
 
 const aims = [
     {
@@ -36,22 +50,56 @@ export function HomeContent() {
             {/* ═══ PURPOSE OF THE WGBO ═══ */}
             <section className="bg-gray-50/70 px-6 py-12 md:py-16">
                 <div className="mx-auto max-w-7xl">
-                    <div className="flex items-center gap-3 mb-4">
-                        <div className="h-8 w-1 rounded-full bg-emerald-500" />
-                        <span className="text-xs font-semibold uppercase tracking-[0.25em] text-emerald-600 font-heading">
-                            Our Purpose
-                        </span>
+                    <div className="flex flex-col gap-10 lg:flex-row lg:items-center lg:gap-14">
+                        <div className="lg:w-1/2">
+                            <div className="flex items-center gap-3 mb-4">
+                                <div className="h-8 w-1 rounded-full bg-emerald-500" />
+                                <span className="text-xs font-semibold uppercase tracking-[0.25em] text-emerald-600 font-heading">
+                                    Our Purpose
+                                </span>
+                            </div>
+                            <h2 className="max-w-2xl text-3xl font-extrabold leading-[1.15] text-gray-900 md:text-4xl lg:text-[40px] font-heading tracking-tight">
+                                Purpose of the WGBO
+                            </h2>
+                            <div className="mt-5 h-[3px] w-20 rounded-full bg-emerald-500" />
+                            <p className="mt-5 max-w-3xl text-[16.5px] leading-[1.9] text-black-800 md:text-[17px]">
+                                The World Green Building Organization (WGBO), part of the World
+                                Safety Organization (WSO) India was formed in the year 2022, our
+                                purpose is to lead the sustainable transformation of the built
+                                environment.
+                            </p>
+                        </div>
+                        <div className="lg:w-1/2">
+                            <Carousel
+                                opts={{
+                                    align: "start",
+                                    loop: true,
+                                }}
+                                plugins={[
+                                    Autoplay({
+                                        delay: 4000,
+                                    }),
+                                ]}
+                                className="w-full relative rounded-2xl overflow-hidden shadow-lg ring-1 ring-gray-200/50 group"
+                            >
+                                <CarouselContent>
+                                    {purposeImages.map((img, idx) => (
+                                        <CarouselItem key={idx}>
+                                            <div className="relative aspect-[4/3] w-full">
+                                                <Image
+                                                    src={img.src}
+                                                    alt={img.alt}
+                                                    fill
+                                                    className="object-cover transition-transform duration-700 group-hover:scale-105"
+                                                    sizes="(max-width: 1024px) 100vw, 50vw"
+                                                />
+                                            </div>
+                                        </CarouselItem>
+                                    ))}
+                                </CarouselContent>
+                            </Carousel>
+                        </div>
                     </div>
-                    <h2 className="max-w-2xl text-3xl font-extrabold leading-[1.15] text-gray-900 md:text-4xl lg:text-[40px] font-heading tracking-tight">
-                        Purpose of the WGBO
-                    </h2>
-                    <div className="mt-5 h-[3px] w-20 rounded-full bg-emerald-500" />
-                    <p className="mt-5 max-w-3xl text-[16.5px] leading-[1.9] text-gray-600 md:text-[17px]">
-                        The World Green Building Organization (WGBO), part of the World
-                        Safety Organization (WGBO) India was formed in the year 2022, our
-                        purpose is to lead the sustainable transformation of the built
-                        environment.
-                    </p>
                 </div>
             </section>
 
@@ -71,7 +119,7 @@ export function HomeContent() {
                                 </p>
                             </div>
 
-                            <p className="mt-4 text-[15.5px] leading-[1.8] text-gray-600">
+                            <p className="mt-4 text-[15.5px] leading-[1.8] text-black-800">
                                 World Green Building Organization (WGBO) is a national recognised
                                 rating system setting the standard for healthy, resilient, positive
                                 buildings and places. Developed for the national environment of
@@ -79,7 +127,7 @@ export function HomeContent() {
                                 the country with the aim of:
                             </p>
 
-                            <p className="mt-4 text-[15.5px] leading-[1.8] text-gray-600">
+                            <p className="mt-4 text-[15.5px] leading-[1.8] text-black-800">
                                 World Green Building Organization (WGBO) has a team of national and
                                 international Environmental, Social, and Governance professionals
                                 who have academic knowledge and many years of practical experience

@@ -18,7 +18,7 @@ export function AboutContent() {
                         History
                     </h2>
                     <div className="mt-5 h-[3px] w-20 rounded-full bg-emerald-500" />
-                    <p className="mt-5 max-w-3xl text-[16.5px] leading-[1.9] text-gray-600 md:text-[17px]">
+                    <p className="mt-5 max-w-3xl text-[16.5px] leading-[1.9] text-black-800 md:text-[17px]">
                         The World Green Building Organization (WGBO), part of the World
                         Safety Organization (WGBO) India was formed in the year 2022, our
                         purpose is to lead the sustainable transformation of the built
@@ -60,7 +60,7 @@ export function AboutContent() {
                                         <Icon className="h-[22px] w-[22px] text-emerald-600" strokeWidth={1.5} />
                                     </span>
                                     <h3 className="mt-5 text-[18px] font-bold text-gray-900 font-heading tracking-tight">{card.title}</h3>
-                                    <p className="mt-2 text-[14.5px] leading-[1.75] text-gray-600">
+                                    <p className="mt-2 text-[14.5px] leading-[1.75] text-black-800">
                                         {card.desc}
                                     </p>
                                 </div>
@@ -77,7 +77,7 @@ export function AboutContent() {
                         Our Vision
                     </h2>
                     <div className="mt-4 h-1 w-14 rounded-full bg-emerald-500" />
-                    <p className="mt-5 max-w-4xl text-[16px] leading-[1.85] text-gray-600 md:text-[17px]">
+                    <p className="mt-5 max-w-4xl text-[16px] leading-[1.85] text-black-800 md:text-[17px]">
                         At WGBO, our mission is to radically improve the sustainability of the
                         built environment, by transforming the way it is planned, financed,
                         designed, constructed, maintained, operated and repurposed.
@@ -93,12 +93,12 @@ export function AboutContent() {
                     </h2>
                     <div className="mt-4 h-1 w-14 rounded-full bg-emerald-500" />
 
-                    <p className="mt-5 max-w-5xl text-[16px] leading-[1.85] text-gray-600 md:text-[17px]">
+                    <p className="mt-5 max-w-5xl text-[16px] leading-[1.85] text-black-800 md:text-[17px]">
                         Our World Green Building Organization (WGBO) tools offer a framework of
                         best practice benchmarks for sustainable construction.
                     </p>
 
-                    <p className="mt-4 max-w-5xl text-[16px] leading-[1.85] text-gray-600 md:text-[17px]">
+                    <p className="mt-4 max-w-5xl text-[16px] leading-[1.85] text-black-800 md:text-[17px]">
                         World Green Building Organization (WGBO) national trusted mark of quality
                         for the design, construction and operation of sustainable buildings,
                         fit-outs and communities.
@@ -133,7 +133,7 @@ export function AboutContent() {
                         })}
                     </div>
 
-                    <p className="mt-6 text-[16px] leading-[1.85] text-gray-600 md:text-[17px]">
+                    <p className="mt-6 text-[16px] leading-[1.85] text-black-800 md:text-[17px]">
                         Learn about the benefits of choosing World Green Building Organization
                         (WGBO) for your next project.
                     </p>
@@ -152,7 +152,7 @@ export function AboutContent() {
                         <span className="mt-1 flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-emerald-50 text-emerald-600">
                             <Building2 className="h-[18px] w-[18px]" strokeWidth={1.5} />
                         </span>
-                        <p className="max-w-4xl text-[16px] leading-[1.85] text-gray-600 md:text-[17px]">
+                        <p className="max-w-4xl text-[16px] leading-[1.85] text-black-800 md:text-[17px]">
                             From healthcare infrastructure to industrial facilities, universities
                             and apartments, the World Green Building Organization (WGBO) in
                             focus&apos; series will take an in-depth look at how different types of

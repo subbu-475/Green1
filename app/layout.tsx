@@ -1,10 +1,11 @@
 import type { Metadata, Viewport } from 'next'
-import { Outfit, DM_Sans } from 'next/font/google'
+import { Outfit, Lato, Roboto } from 'next/font/google'
 
 import './globals.css'
 
 const outfit = Outfit({ subsets: ['latin'], variable: '--font-outfit', weight: ['300', '400', '500', '600', '700', '800'] })
-const dmSans = DM_Sans({ subsets: ['latin'], variable: '--font-dm-sans', weight: ['300', '400', '500', '600', '700'] })
+const lato = Lato({ subsets: ['latin'], variable: '--font-lato', weight: ['300', '400', '700', '900'] })
+const roboto = Roboto({ subsets: ['latin'], variable: '--font-roboto', weight: ['300', '400', '500', '700', '900'] })
 
 export const metadata: Metadata = {
   title: 'WGBO | World Green Building Organization',
@@ -26,7 +27,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${outfit.variable} ${dmSans.variable} font-sans antialiased`}>{children}</body>
+      <body className={`${outfit.variable} ${lato.variable} ${roboto.variable} font-sans antialiased text-[17px]`}>{children}</body>
     </html>
   )
 }

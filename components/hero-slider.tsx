@@ -6,7 +6,7 @@ import { ChevronLeft, ChevronRight } from "lucide-react"
 
 const slides = [
   {
-    image: "/images/hero-1-v3.jpg",
+    image: "/images/hero7.png",
     subtitle: "Powering the Nation's Green Future",
     title: "WGBO Leadership in Sustainable Construction",
     description:
@@ -14,8 +14,18 @@ const slides = [
     cta: "Know More",
     href: "/about",
   },
+
   {
-    image: "/images/hero-2-v3.jpg",
+    image: "/images/hero9.png",
+    subtitle: "23rd Edition",
+    title: "Green Building Congress 2025",
+    description:
+      "International Conference and Green Expo to accelerate the green and net-zero building movement, offering a platform for discussions and showcasing solutions.",
+    cta: "Know More",
+    href: "/awards",
+  },
+  {
+    image: "/images/hero6.png",
     subtitle: "Green Metro Systems",
     title: "Shaping Sustainable Urban Mobility",
     description:
@@ -23,8 +33,9 @@ const slides = [
     cta: "Know More",
     href: "/services",
   },
+
   {
-    image: "/images/hero-3-v3.jpg",
+    image: "/images/hero4.jpg",
     subtitle: "23rd Edition",
     title: "Green Building Congress 2025",
     description:
@@ -65,30 +76,6 @@ export function HeroSlider() {
             className="object-cover"
             priority={index === 0}
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-foreground/80 via-foreground/50 to-transparent" />
-          <div className="relative z-10 mx-auto flex h-full max-w-7xl items-center px-4">
-            <div
-              className={`max-w-xl transition-all duration-700 ${index === current ? "translate-y-0 opacity-100" : "translate-y-8 opacity-0"
-                }`}
-            >
-              <p className="mb-3 text-sm font-semibold uppercase tracking-widest text-accent">
-                {slide.subtitle}
-              </p>
-              <h1 className="mb-4 font-heading text-3xl font-bold leading-tight text-primary-foreground md:text-4xl lg:text-5xl text-balance">
-                {slide.title}
-              </h1>
-              <p className="mb-6 text-base leading-relaxed text-primary-foreground/80 md:text-lg">
-                {slide.description}
-              </p>
-              <a
-                href={slide.href}
-                className="inline-flex items-center gap-2 rounded bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground transition-colors hover:bg-primary/90"
-              >
-                {slide.cta}
-                <ChevronRight className="h-4 w-4" />
-              </a>
-            </div>
-          </div>
         </div>
       ))}
 

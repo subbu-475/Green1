@@ -33,7 +33,7 @@ export function MembershipContent() {
                     </h2>
                     <div className="mt-5 h-[3px] w-20 rounded-full bg-emerald-500" />
 
-                    <div className="mt-6 text-[16px] leading-[1.8] text-gray-600 space-y-4 max-w-6xl">
+                    <div className="mt-6 text-[16px] leading-[1.8] text-black-800 space-y-4 max-w-6xl">
                         <p>
                             The World Green Building Organization (WGBO) provides a network system to its members whereby professional assistance may be requested by an individual, organization, state, or country on a personal basis. Members needing assistance may write directly to the World Green Building Organization (WGBO) with a specific request, and we will try to link the requester with a person, organization, or resource which may be of assistance.
                         </p>
@@ -78,7 +78,7 @@ export function MembershipContent() {
                     </h2>
                     <div className="mt-5 h-[3px] w-20 rounded-full bg-emerald-500" />
 
-                    <div className="mt-6 text-[16px] leading-[1.8] text-gray-600 max-w-6xl space-y-4">
+                    <div className="mt-6 text-[16px] leading-[1.8] text-black-800 max-w-6xl space-y-4">
                         <p className="font-semibold text-gray-900">
                             Become a World Green Building Organization (WGBO) Professional Member
                         </p>
@@ -133,7 +133,7 @@ export function MembershipContent() {
                     </h2>
                     <div className="mt-5 h-[3px] w-20 rounded-full bg-emerald-500" />
 
-                    <div className="mt-6 text-[16px] leading-[1.8] text-gray-600 max-w-6xl">
+                    <div className="mt-6 text-[16px] leading-[1.8] text-black-800 max-w-6xl">
                         <div className="flex items-center gap-2 mb-4 text-emerald-700 font-medium">
                             <GraduationCap className="h-5 w-5" />
                             <span>Who is it for?</span>
@@ -162,7 +162,7 @@ export function MembershipContent() {
                     </h2>
                     <div className="mt-5 h-[3px] w-20 rounded-full bg-emerald-500" />
 
-                    <div className="mt-6 text-[16px] leading-[1.8] text-gray-600 max-w-6xl">
+                    <div className="mt-6 text-[16px] leading-[1.8] text-black-800 max-w-6xl">
                         <div className="flex items-center gap-2 mb-4 text-emerald-700 font-medium">
                             <Users className="h-5 w-5" />
                             <span>Who is it for?</span>
@@ -191,7 +191,7 @@ export function MembershipContent() {
                     </h2>
                     <div className="mt-5 h-[3px] w-20 rounded-full bg-emerald-500" />
 
-                    <div className="mt-6 text-[16px] leading-[1.8] text-gray-600 max-w-6xl">
+                    <div className="mt-6 text-[16px] leading-[1.8] text-black-800 max-w-6xl">
                         <div className="flex items-center gap-2 mb-4 text-emerald-700 font-medium">
                             <BadgeCheck className="h-5 w-5" />
                             <span>Who is it for?</span>
@@ -220,7 +220,7 @@ export function MembershipContent() {
                     </h2>
                     <div className="mt-5 h-[3px] w-20 rounded-full bg-emerald-500" />
 
-                    <div className="mt-6 text-[16px] leading-[1.8] text-gray-600 max-w-6xl">
+                    <div className="mt-6 text-[16px] leading-[1.8] text-black-800 max-w-6xl">
                         <p className="mb-4">
                             <strong>CMWGBO</strong> stands for Chartered Member of World Green Building Organization. It shows you meet professional standards in Environmental Safety and Health (or) Environment social and governance (or) Environmental Sustainability that are recognised internationally.
                         </p>
@@ -249,7 +249,7 @@ export function MembershipContent() {
                     </h2>
                     <div className="mt-5 h-[3px] w-20 rounded-full bg-emerald-500" />
 
-                    <div className="mt-6 text-[16px] leading-[1.8] text-gray-600 max-w-6xl">
+                    <div className="mt-6 text-[16px] leading-[1.8] text-black-800 max-w-6xl">
                         <p className="mb-4">
                             <strong>CPMWGBO</strong> stands for Chartered Professional of WGBO. It's the profession's highest grade, recognising exceptional contribution and leadership in Environmental Safety and Health (or) Environment social and governance (or) Environmental Sustainability.
                         </p>
@@ -278,7 +278,7 @@ export function MembershipContent() {
                     </h2>
                     <div className="mt-5 h-[3px] w-20 rounded-full bg-emerald-500" />
 
-                    <div className="mt-6 text-[16px] leading-[1.8] text-gray-600 max-w-6xl space-y-4">
+                    <div className="mt-6 text-[16px] leading-[1.8] text-black-800 max-w-6xl space-y-4">
                         <p>
                             World Green Building Organization (WGBO) can assist you in an application process. You can contact <a href="mailto:enquiry@wgbo.org.in" className="text-emerald-600 font-medium hover:underline">enquiry@wgbo.org.in</a> for further assistance.
                         </p>
@@ -309,7 +309,7 @@ export function MembershipContent() {
                     </h2>
                     <div className="mt-5 h-[3px] w-20 rounded-full bg-emerald-500" />
 
-                    <div className="mt-6 text-[16px] leading-[1.8] text-gray-600 max-w-6xl space-y-4">
+                    <div className="mt-6 text-[16px] leading-[1.8] text-black-800 max-w-6xl space-y-4">
                         <p className="font-medium text-gray-800">
                             Download, print, and sign the World Green Building Organization (WGBO) Code of Conduct, and submit with your Application for Membership.
                         </p>
@@ -359,7 +359,7 @@ export function MembershipContent() {
                     </h2>
                     <div className="mt-5 h-[3px] w-20 rounded-full bg-emerald-500" />
 
-                    <div className="mt-6 text-[16px] leading-[1.8] text-gray-600 max-w-6xl space-y-4">
+                    <div className="mt-6 text-[16px] leading-[1.8] text-black-800 max-w-6xl space-y-4">
                         <p>
                             All successful admission to a membership class, you may be eligible for prestigious titles such as Associate /Affiliate Member of WGBO (AMWGBO), Chartered Member of WGBO (CMWGBO) and Professional Member of WGBO (PMWGBO) after meeting additional criteria and paying the requisite fees.
                         </p>

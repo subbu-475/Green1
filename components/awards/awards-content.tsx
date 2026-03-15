@@ -36,7 +36,7 @@ export function AwardsContent() {
                     </h2>
                     <div className="mt-5 h-[3px] w-20 rounded-full bg-emerald-500" />
 
-                    <div className="mt-6 text-[16px] leading-[1.8] text-gray-600 space-y-6 max-w-6xl">
+                    <div className="mt-6 text-[16px] leading-[1.8] text-black-800 space-y-6 max-w-6xl">
                         <div className="bg-white p-6 md:p-8 rounded-xl border border-gray-100 shadow-sm">
                             <h3 className="text-xl font-bold text-gray-900 font-heading mb-4 flex items-center gap-2">
                                 <FileText className="h-5 w-5 text-emerald-600" />
@@ -116,7 +116,7 @@ export function AwardsContent() {
                     </h2>
                     <div className="mt-5 h-[3px] w-20 rounded-full bg-emerald-500" />
 
-                    <div className="mt-6 text-[16px] leading-[1.8] text-gray-600 space-y-6 max-w-6xl">
+                    <div className="mt-6 text-[16px] leading-[1.8] text-black-800 space-y-6 max-w-6xl">
                         <div>
                             <h3 className="text-xl font-bold text-gray-900 font-heading mb-4 flex items-center gap-2">
                                 <Trophy className="h-5 w-5 text-emerald-600" />

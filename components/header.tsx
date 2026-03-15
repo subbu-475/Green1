@@ -17,78 +17,78 @@ const navItems: NavItem[] = [
     label: "About",
     href: "/about",
     children: [
-      { label: "Our History", href: "/about#history" },
-      { label: "Our Vision", href: "/about#vision" },
-      { label: "WGBO Tools", href: "/about#tools" },
-      { label: "WGBO Focus", href: "/about#focus" },
+      { label: "Our History", href: "/about/history" },
+      { label: "Our Vision", href: "/about/vision" },
+      { label: "WGBO Tools", href: "/about/tools" },
+      { label: "WGBO Focus", href: "/about/focus" },
     ],
   },
   {
     label: "Services",
     href: "/services",
     children: [
-      { label: "Training & Learning", href: "/services#training" },
-      { label: "E-Learning", href: "/services#elearning" },
-      { label: "Virtual Learning", href: "/services#virtual" },
-      { label: "Campaigns", href: "/services#campaigns" },
-      { label: "Dairy / Calendar", href: "/services#calendar" },
-      { label: "Publication", href: "/services#publication" },
+      { label: "Training & Learning", href: "/services/training" },
+      { label: "E-Learning", href: "/services/elearning" },
+      { label: "Virtual Learning", href: "/services/virtual" },
+      { label: "Campaigns", href: "/services/campaigns" },
+      { label: "Dairy / Calendar", href: "/services/calendar" },
+      { label: "Publication", href: "/services/publication" },
     ],
   },
   {
     label: "Rating System",
     href: "/rating-system",
     children: [
-      { label: "WGBO certification Scheme", href: "/rating-system#scheme" },
-      { label: "WGBO Certificates Scheme and Levels", href: "/rating-system#levels" },
-      { label: "WGBO Certificates Benefits", href: "/rating-system#benefits" },
-      { label: "WGBO Recognition", href: "/rating-system#recognition" },
-      { label: "WGBO Lab Partners", href: "/rating-system#lab-partners" },
-      { label: "WGBO Certificates Validity", href: "/rating-system#validity" },
+      { label: "WGBO certification Scheme", href: "/rating-system/scheme" },
+      { label: "WGBO Certificates Scheme and Levels", href: "/rating-system/levels" },
+      { label: "WGBO Certificates Benefits", href: "/rating-system/benefits" },
+      { label: "WGBO Recognition", href: "/rating-system/recognition" },
+      { label: "WGBO Lab Partners", href: "/rating-system/lab-partners" },
+      { label: "WGBO Certificates Validity", href: "/rating-system/validity" },
     ],
   },
   {
     label: "Membership",
     href: "/membership",
     children: [
-      { label: "Benefits of Membership", href: "/membership#benefits" },
-      { label: "Professional Membership", href: "/membership#professional" },
-      { label: "Student Membership Program", href: "/membership#student" },
-      { label: "Associate membership of WGBO (AMWGBO)", href: "/membership#associate" },
-      { label: "Affiliate Membership of WGBO (AMWGBO)", href: "/membership#affiliate" },
-      { label: "Chartered Member of WGBO (CMWGBO)", href: "/membership#chartered" },
-      { label: "Chartered Professional Member of WGBO (CPMWGBO)", href: "/membership#chartered-professional" },
-      { label: "Application for WGBO Membership", href: "/membership#application" },
-      { label: "Professional Code of Conduct", href: "/membership#conduct" },
-      { label: "Membership Fees", href: "/membership#fees" },
-      { label: "Quick Downloads", href: "/membership#downloads" },
+      { label: "Benefits of Membership", href: "/membership/benefits" },
+      { label: "Professional Membership", href: "/membership/professional" },
+      { label: "Student Membership Program", href: "/membership/student" },
+      { label: "Associate membership of WGBO (AMWGBO)", href: "/membership/associate" },
+      { label: "Affiliate Membership of WGBO (AMWGBO)", href: "/membership/affiliate" },
+      { label: "Chartered Member of WGBO (CMWGBO)", href: "/membership/chartered" },
+      { label: "Chartered Professional Member of WGBO (CPMWGBO)", href: "/membership/chartered-professional" },
+      { label: "Application for WGBO Membership", href: "/membership/application" },
+      { label: "Professional Code of Conduct", href: "/membership/conduct" },
+      { label: "Membership Fees", href: "/membership/fees" },
+      { label: "Quick Downloads", href: "/membership/downloads" },
     ],
   },
   {
     label: "Certification",
     href: "/certification",
     children: [
-      { label: "Certification Board", href: "/certification#board" },
-      { label: "Professional Qualification Scheme", href: "/certification#scheme" },
-      { label: "Professional Certification", href: "/certification#professional" },
-      { label: "World Green Building Associate (WGBA)", href: "/certification#wgba" },
-      { label: "World Green Building Accredited Professional (WGBAP)", href: "/certification#wgbap" },
-      { label: "World Green Building Advanced Accredited Professional (WGBAAP)", href: "/certification#wgbaap" },
-      { label: "Accreditation Benefits", href: "/certification#benefits" },
-      { label: "Continuing Professional Development (CPD)", href: "/certification#cpd" },
-      { label: "WGBO Policies", href: "/certification#policies" },
-      { label: "Application for Certification", href: "/certification#application" },
+      { label: "Certification Board", href: "/certification/board" },
+      { label: "Professional Qualification Scheme", href: "/certification/scheme" },
+      { label: "Professional Certification", href: "/certification/professional" },
+      { label: "World Green Building Associate (WGBA)", href: "/certification/wgba" },
+      { label: "World Green Building Accredited Professional (WGBAP)", href: "/certification/wgbap" },
+      { label: "World Green Building Advanced Accredited Professional (WGBAAP)", href: "/certification/wgbaap" },
+      { label: "Accreditation Benefits", href: "/certification/benefits" },
+      { label: "Continuing Professional Development (CPD)", href: "/certification/cpd" },
+      { label: "WGBO Policies", href: "/certification/policies" },
+      { label: "Application for Certification", href: "/certification/application" },
     ],
   },
   {
     label: "Awards",
     href: "/awards",
     children: [
-      { label: "Awards", href: "/awards#awards" },
-      { label: "Sponsorship", href: "/awards#sponsorship" },
+      { label: "Awards", href: "/awards/details" },
+      { label: "Sponsorship", href: "/awards/sponsorship" },
     ],
   },
-  { label: "Contact Us", href: "/contact" },
+  { label: "Contact", href: "/contact" },
 ]
 
 function DropdownItem({ item }: { item: NavItem }) {
@@ -162,30 +162,34 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-50 bg-background shadow-md">
-      <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3">
-        <Link href="/" className="flex items-center gap-2">
+      <div className="flex w-full items-center justify-between px-4 py-2 lg:px-8">
+        <Link href="/" className="flex items-center gap-3 shrink-0">
           <Image
             src="/images/LOGO.png"
             alt="WGBO Logo"
-            width={128}
-            height={128}
-            className="h-16 w-16 md:h-20 md:w-20 object-contain"
+            width={160}
+            height={160}
+            className="h-24 w-24 md:h-[120px] md:w-[120px] object-contain"
             priority
           />
-          <div className="flex flex-col">
-            <span className="text-2xl font-bold leading-tight text-primary font-heading md:text-3xl">WGBO</span>
-            {/* <span className="text-xs font-semibold leading-tight text-muted-foreground md:text-sm">World Green Building Organization</span> */}
+          <div className="hidden md:flex items-baseline gap-x-2 whitespace-nowrap">
+            <span className="text-2xl font-bold text-primary font-heading lg:text-3xl">WGBO</span>
+            <span className="text-sm font-semibold text-muted-foreground lg:text-base">World Green Building Organization</span>
+          </div>
+          <div className="flex flex-col md:hidden">
+            <span className="text-xl font-bold leading-tight text-primary font-heading">WGBO</span>
+            <span className="text-[10px] font-semibold leading-tight text-muted-foreground whitespace-nowrap">World Green Building Organization</span>
           </div>
         </Link>
 
-        <nav className="hidden items-center gap-0.5 lg:flex">
+        <nav className="hidden items-center gap-0 xl:flex">
           {navItems.map((item) => (
             <DropdownItem key={item.label} item={item} />
           ))}
         </nav>
 
         <button
-          className="rounded-md p-2 text-foreground lg:hidden"
+          className="rounded-md p-2 text-foreground xl:hidden"
           onClick={() => setMobileOpen(!mobileOpen)}
           aria-label={mobileOpen ? "Close menu" : "Open menu"}
         >
@@ -194,7 +198,7 @@ export function Header() {
       </div>
 
       {mobileOpen && (
-        <div className="border-t bg-background px-4 pb-4 lg:hidden max-h-[calc(100vh-80px)] overflow-y-auto w-full">
+        <div className="border-t bg-background px-4 pb-4 xl:hidden max-h-[calc(100vh-80px)] overflow-y-auto w-full">
           {navItems.map((item) => (
             <div key={item.label}>
               <Link

@@ -18,7 +18,7 @@ export function ServicesContent() {
                         Training and Learning
                     </h2>
                     <div className="mt-5 h-[3px] w-20 rounded-full bg-emerald-500" />
-                    <p className="mt-5 max-w-4xl text-[16.5px] leading-[1.9] text-gray-600 md:text-[17px]">
+                    <p className="mt-5 max-w-4xl text-[16.5px] leading-[1.9] text-black-800 md:text-[17px]">
                         We provide specialised WGBO in-house training to organisations who want to train large groups of staff.
                     </p>
 
@@ -26,7 +26,7 @@ export function ServicesContent() {
                         {/* Benefits */}
                         <div>
                             <h3 className="mb-4 text-xl font-bold text-gray-900 font-heading">What are the benefits of in-house training?</h3>
-                            <p className="mb-4 text-gray-600">In-house training allows you to:</p>
+                            <p className="mb-4 text-black-800">In-house training allows you to:</p>
                             <ul className="space-y-3">
                                 {[
                                     "Train large numbers of staff at a significantly lower per head cost",
@@ -39,7 +39,7 @@ export function ServicesContent() {
                                 ].map((item, i) => (
                                     <li key={i} className="flex items-start gap-3">
                                         <CheckCircle2 className="mt-0.5 h-5 w-5 shrink-0 text-emerald-500" />
-                                        <span className="text-[15px] leading-[1.6] text-gray-600">{item}</span>
+                                        <span className="text-[15px] leading-[1.6] text-black-800">{item}</span>
                                     </li>
                                 ))}
                             </ul>
@@ -49,7 +49,7 @@ export function ServicesContent() {
                         <div className="flex flex-col gap-8">
                             <div>
                                 <h3 className="mb-4 text-xl font-bold text-gray-900 font-heading">What do we provide?</h3>
-                                <ul className="space-y-3 text-[15px] leading-[1.6] text-gray-600">
+                                <ul className="space-y-3 text-[15px] leading-[1.6] text-black-800">
                                     <li><strong className="text-gray-900">Presenter:</strong> a member of our highly experienced WGBO Faculty team will be selected, based on their skills, experience and location</li>
                                     <li><strong className="text-gray-900">Training materials:</strong> we will provide any teaching materials required for the training</li>
                                     <li><strong className="text-gray-900">Tailored content:</strong> you will have the opportunity to approach WGBO in advance to discuss your organisational training requirements, to ensure that the training provided meets your organisational objectives</li>
@@ -59,7 +59,7 @@ export function ServicesContent() {
 
                             <div>
                                 <h3 className="mb-4 text-xl font-bold text-gray-900 font-heading">What do you need to provide?</h3>
-                                <ul className="space-y-3 text-[15px] leading-[1.6] text-gray-600">
+                                <ul className="space-y-3 text-[15px] leading-[1.6] text-black-800">
                                     <li><strong className="text-gray-900">Training venue:</strong> this may be your workplace or another appropriate venue as selected by you. Please note when selecting a venue that 'Green Building' venues assist in demonstrating the ethos of green building by providing a practical example of green building design and/or construction.</li>
                                     <li><strong className="text-gray-900">List of attendees</strong></li>
                                     <li><strong className="text-gray-900">Relevant AV equipment</strong></li>
@@ -68,7 +68,7 @@ export function ServicesContent() {
 
                             <div className="rounded-xl border border-emerald-100 bg-emerald-50/50 p-6">
                                 <h3 className="mb-2 text-lg font-bold text-gray-900 font-heading">How much does it cost?</h3>
-                                <p className="text-gray-600">Just mail us to <a href="mailto:enquiry@wgbo.org.in" className="font-medium text-emerald-600 hover:underline">enquiry@wgbo.org.in</a> to get the cost.</p>
+                                <p className="text-black-800">Just mail us to <a href="mailto:enquiry@wgbo.org.in" className="font-medium text-emerald-600 hover:underline">enquiry@wgbo.org.in</a> to get the cost.</p>
                             </div>
                         </div>
                     </div>
@@ -89,7 +89,7 @@ export function ServicesContent() {
                     </h2>
                     <div className="mt-5 h-[3px] w-20 rounded-full bg-emerald-500" />
 
-                    <p className="mt-6 max-w-4xl text-[16px] leading-[1.8] text-gray-600">
+                    <p className="mt-6 max-w-4xl text-[16px] leading-[1.8] text-black-800">
                         Traditional methods of learning i.e class room training / coaching have limitations in terms of time and cost involvement. There is little flexibility for a working person to enhance his learning required for career advancement. Whereas, E-learning mode offers an alternative for those who cannot attend classroom training.
                     </p>
 
@@ -124,7 +124,7 @@ export function ServicesContent() {
 
                     <div className="mt-10 flex flex-col lg:flex-row gap-10">
                         <div className="lg:w-1/2">
-                            <p className="text-[16px] leading-[1.8] text-gray-600">
+                            <p className="text-[16px] leading-[1.8] text-black-800">
                                 Our on-demand learning courses are recordings of previous live sessions. So even if you missed a webinar you can still access all the insights and information.
                             </p>
 
@@ -139,7 +139,7 @@ export function ServicesContent() {
                                 ].map((item, i) => (
                                     <li key={i} className="flex items-start gap-3">
                                         <CheckCircle2 className="mt-0.5 h-5 w-5 shrink-0 text-emerald-500" />
-                                        <span className="text-[15px] leading-[1.6] text-gray-600">{item}</span>
+                                        <span className="text-[15px] leading-[1.6] text-black-800">{item}</span>
                                     </li>
                                 ))}
                             </ul>
@@ -152,7 +152,7 @@ export function ServicesContent() {
                                 </p>
                             </div>
                             <div className="rounded-xl border border-gray-100 bg-white shadow-sm p-6 text-center">
-                                <p className="text-gray-600">To view our full on-demand course list follow the link here. You will need to sign into your WGBOA account to purchase a course.</p>
+                                <p className="text-black-800">To view our full on-demand course list follow the link here. You will need to sign into your WGBOA account to purchase a course.</p>
                             </div>
                         </div>
                     </div>
@@ -173,7 +173,7 @@ export function ServicesContent() {
                     </h2>
                     <div className="mt-5 h-[3px] w-20 rounded-full bg-emerald-500" />
 
-                    <p className="mt-6 max-w-4xl text-[16px] leading-[1.8] text-gray-600">
+                    <p className="mt-6 max-w-4xl text-[16px] leading-[1.8] text-black-800">
                         Green building campaigns promote environmentally responsible, resource-efficient, and sustainable construction to combat climate change, reduce energy consumption, and improve occupant health. Major initiatives like World Green Building Week focus on accelerating net-zero, resilient, and sustainable infrastructure to meet global climate goals.
                     </p>
                 </div>
@@ -193,7 +193,7 @@ export function ServicesContent() {
                     </h2>
                     <div className="mt-5 h-[3px] w-20 rounded-full bg-emerald-500" />
 
-                    <p className="mt-6 max-w-4xl text-[16px] leading-[1.8] text-gray-600">
+                    <p className="mt-6 max-w-4xl text-[16px] leading-[1.8] text-black-800">
                         WGBO is promoting Green Building at the national level by using various means such as Star Rating, conferences, training programmes, publications, posters, yearly calendar, campaigns, etc. from its inception and added new means from time to time.
                     </p>
                 </div>
@@ -213,7 +213,7 @@ export function ServicesContent() {
                     </h2>
                     <div className="mt-5 h-[3px] w-20 rounded-full bg-emerald-500" />
 
-                    <p className="mt-6 max-w-4xl text-[16px] leading-[1.8] text-gray-600">
+                    <p className="mt-6 max-w-4xl text-[16px] leading-[1.8] text-black-800">
                         The purpose of the newsletter of Green Building is to present the very best peer-reviewed research for the sustainable built environment at the building, community, neighborhood and urban scale. As such, the newsletter's coverage includes green building design and construction, community and urban planning, green building policy and developmental studies, building engineering and technological innovation, facilities management, building information modeling, occupant behavior and sustainable landscape development.
                     </p>
                 </div>

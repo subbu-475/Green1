@@ -68,8 +68,9 @@ const config: Config = {
         sm: 'calc(var(--radius) - 4px)',
       },
       fontFamily: {
-        sans: ['var(--font-dm-sans)', 'system-ui', 'sans-serif'],
+        sans: ['var(--font-lato)', 'system-ui', 'sans-serif'],
         heading: ['var(--font-outfit)', 'system-ui', 'sans-serif'],
+        roboto: ['var(--font-roboto)', 'system-ui', 'sans-serif'],
         serif: ['Georgia', 'serif'],
       },
       keyframes: {
