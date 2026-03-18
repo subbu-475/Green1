@@ -6,20 +6,20 @@ import { AwardsContent } from "@/components/awards/awards-content"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-    title: "Awards & Sponsorship | World Green Building Organization",
-    description:
-        "WGBO state-level Awards recognise sustainability excellence. Explore sponsorship opportunities, past events, and application resources.",
+ title:"Awards & Sponsorship | World Green Building Organization",
+ description:
+"WGBO state-level Awards recognise sustainability excellence. Explore sponsorship opportunities, past events, and application resources.",
 }
 
 export default function AwardsPage() {
-    return (
-        <>
-            <TopBar />
-            <Header />
-            <main>
-                <AwardsContent />
-            </main>
-            <Footer />
-        </>
-    )
+ return (
+ <>
+ <TopBar />
+ <Header />
+ <main>
+ <AwardsContent />
+ </main>
+ <Footer />
+ </>
+ )
 }

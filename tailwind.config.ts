@@ -72,6 +72,7 @@ const config: Config = {
         heading: ['var(--font-outfit)', 'system-ui', 'sans-serif'],
         roboto: ['var(--font-roboto)', 'system-ui', 'sans-serif'],
         serif: ['Georgia', 'serif'],
+        opensans: ['var(--font-open-sans)', 'system-ui', 'sans-serif'],
       },
       keyframes: {
         'accordion-down': {

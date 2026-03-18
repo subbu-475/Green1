@@ -11,7 +11,7 @@
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 150 10% 15%;
+    --foreground: 0 0% 0%;
     --card: 0 0% 100%;
     --card-foreground: 150 10% 15%;
     --popover: 0 0% 100%;
@@ -52,7 +52,7 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-opensans text-base lg:text-[17px] font-medium leading-[1.8] text-black;
   }
 
   h1,
@@ -76,8 +76,21 @@
     @apply text-2xl md:text-[32px] leading-[1.2];
   }
 
-  p {
-    @apply font-sans text-[17px] font-normal leading-[1.5] text-justify text-[#272727];
+  p,
+  li,
+  td,
+  dd,
+  blockquote {
+    @apply font-opensans text-base lg:text-[17px] font-medium leading-[1.8] text-black text-justify;
+  }
+
+  ul,
+  ol {
+    @apply space-y-2;
+  }
+
+  li::marker {
+    @apply text-emerald-600;
   }
 }
 

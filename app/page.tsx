@@ -5,15 +5,15 @@ import { HeroSlider } from "@/components/hero-slider"
 import { Footer } from "@/components/footer"
 
 export default function Page() {
-  return (
-    <>
-      <TopBar />
-      <Header />
-      <main>
-        <HeroSlider />
-        <HomeContent />
-      </main>
-      <Footer />
-    </>
-  )
+ return (
+ <>
+ <TopBar />
+ <Header />
+ <main>
+ <HeroSlider />
+ <HomeContent />
+ </main>
+ <Footer />
+ </>
+ )
 }
