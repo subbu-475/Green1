@@ -168,12 +168,12 @@ export function Header() {
  <Image
  src="/images/LOGO.png"
  alt="WGBO Logo"
- width={160}
- height={160}
- className="h-20 w-20 md:h-[100px] md:w-[100px] object-contain"
+ width={200}
+ height={200}
+ className="h-24 w-24 md:h-[130px] md:w-[130px] object-contain"
  priority
  />
- <span className="text-base font-bold text-primary font-heading md:text-lg -mt-2 leading-none">WGBO</span>
+ <span className="text-base font-bold text-primary font-heading md:text-xl -mt-2 md:-mt-3 leading-none">WGBO</span>
  </div>
 
  {/* Desktop */}

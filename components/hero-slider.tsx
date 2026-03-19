@@ -62,7 +62,7 @@ export function HeroSlider() {
     }, [next])
 
     return (
-        <section className="relative h-[500px] overflow-hidden md:h-[600px] lg:h-[650px]">
+        <section className="relative w-full overflow-hidden bg-gray-50/50 aspect-video md:aspect-[16/7] lg:aspect-[21/9] 2xl:aspect-[2.5/1]">
             {slides.map((slide, index) => (
                 <div
                     key={index}
@@ -73,7 +73,8 @@ export function HeroSlider() {
                         src={slide.image}
                         alt={slide.title}
                         fill
-                        className="object-cover"
+                        sizes="100vw"
+                        className="object-cover w-full h-full"
                         priority={index === 0}
                     />
                 </div>
