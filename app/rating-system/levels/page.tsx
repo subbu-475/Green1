@@ -1,4 +1,4 @@
-﻿import { TopBar } from "@/components/top-bar"
+import { TopBar } from "@/components/top-bar"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { Building, Award, ShieldCheck, Globe2, TestTube, Clock } from "lucide-react"
@@ -49,31 +49,31 @@ export default function Page() {
  <tr className="hover:bg-gray-50 transition-colors">
  <td className="px-5 py-3 font-semibold text-gray-900">1</td>
  <td className="px-5 py-3">Certificate</td>
- <td className="px-5 py-3">30â€“40</td>
+ <td className="px-5 py-3">30-40</td>
  <td className="px-5 py-3">Good Performance</td>
  </tr>
  <tr className="hover:bg-gray-50 transition-colors">
  <td className="px-5 py-3 font-semibold text-gray-900">2</td>
  <td className="px-5 py-3">Bronze</td>
- <td className="px-5 py-3">41â€“50</td>
+ <td className="px-5 py-3">41-50</td>
  <td className="px-5 py-3">Very Good Performance</td>
  </tr>
  <tr className="hover:bg-gray-50 transition-colors">
  <td className="px-5 py-3 font-semibold text-gray-900">3</td>
  <td className="px-5 py-3">Silver</td>
- <td className="px-5 py-3">51â€“70</td>
+ <td className="px-5 py-3">51-70</td>
  <td className="px-5 py-3">Outstanding Performance</td>
  </tr>
  <tr className="hover:bg-gray-50 transition-colors">
  <td className="px-5 py-3 font-semibold text-gray-900">4</td>
  <td className="px-5 py-3">Gold</td>
- <td className="px-5 py-3">71â€“90</td>
+ <td className="px-5 py-3">71-90</td>
  <td className="px-5 py-3">National Excellence</td>
  </tr>
  <tr className="hover:bg-gray-50 transition-colors">
  <td className="px-5 py-3 font-semibold text-gray-900">5</td>
  <td className="px-5 py-3 text-emerald-700 font-semibold">Platinum</td>
- <td className="px-5 py-3">91 -100</td>
+ <td className="px-5 py-3">91-100</td>
  <td className="px-5 py-3 text-emerald-700 font-medium">National Leadership</td>
  </tr>
  </tbody>

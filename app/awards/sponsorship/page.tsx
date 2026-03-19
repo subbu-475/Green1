@@ -1,4 +1,4 @@
-﻿import { TopBar } from "@/components/top-bar"
+import { TopBar } from "@/components/top-bar"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import {
@@ -76,7 +76,7 @@ export default function Page() {
 "Social media networks.",
 "Website visitors.",
 "Promotional materials/corporate brochures in the documentation kit.",
-"Logo in the thanking sponsor board â€“ Logo size will vary according to the sponsorship category.",
+"Logo in the thanking sponsor board - Logo size will vary according to the sponsorship category.",
 "Corporate Film during break hours.",
 "Accord the status of the sponsorship at the Award Ceremony.",
 "Accord the status of the sponsorship at the WGBO Website.",

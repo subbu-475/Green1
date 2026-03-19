@@ -1,4 +1,4 @@
-﻿import { TopBar } from "@/components/top-bar"
+import { TopBar } from "@/components/top-bar"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { Shield, FileText, CheckCircle, Send, Download } from "lucide-react"
@@ -18,7 +18,7 @@ const conductItems = [
 "Members must be dedicated to professional development of new members in the safety profession and associated disciplines.",
 "Members must be responsible for their complete sincerity in professional service to the world.",
 "Members must be responsible for continuing improvement and development of professional competencies in safety and associated disciplines.",
- 'Members must be responsible for their professional efforts to support the World Green Building Organization motto,"Making Green Go a Way of Lifeâ€¦Worldwide."',
+ 'Members must be responsible for their professional efforts to support the World Green Building Organization motto,"Making Green Go a Way of Life...Worldwide."',
 ]
 
 const agreementItems = [
@@ -43,7 +43,7 @@ export default function CodeOfConductPage() {
  </div>
  <h1 className="font-serif text-4xl font-bold md:text-5xl">Code of Conduct</h1>
  <p className="mx-auto mt-4 max-w-2xl text-lg text-primary-foreground/80">
- World Green Building Organization â€” International Office for India
+  World Green Building Organization - International Office for India
  </p>
  <a
  href="/images/WGBO Code-of-Conduct.docx"
