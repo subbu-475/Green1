@@ -1,4 +1,4 @@
-import { TopBar } from "@/components/top-bar"
+﻿import { TopBar } from "@/components/top-bar"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import {
@@ -24,7 +24,7 @@ export default function Page() {
  <>
  <TopBar />
  <Header />
- <main className="min-h-screen bg-gray-50/10 flex flex-col w-full grow pt-4 pb-12">
+ <main className="bg-gray-50/10 flex flex-col w-full grow pt-4 pb-12">
  <section id="wgbaap" className="scroll-mt-32 bg-white px-6 py-8 md:py-10">
  <div className="mx-auto max-w-7xl">
  <div className="flex items-center gap-3 mb-4">
@@ -38,7 +38,7 @@ export default function Page() {
  </h2>
  <div className="mt-5 h-[3px] w-20 rounded-full bg-emerald-500" />
 
- <div className="mt-6 text-black space-y-4 max-w-6xl">
+ <div className="mt-6 text-black space-y-4">
  <p>
  The central accreditation for experienced technical professionals in the built environment industry with 5 years' experience in World Green Building projects. A WGBAAP possesses a deep understanding of National environmental sustainability legislative framework and green building performance standards as well as mastery of the World Green Building certification scheme.
  </p>

@@ -1,4 +1,4 @@
-import { TopBar } from "@/components/top-bar"
+﻿import { TopBar } from "@/components/top-bar"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { GraduationCap, Laptop, Video, Megaphone, CalendarSearch, BookMarked, CheckCircle2 } from "lucide-react"
@@ -14,7 +14,7 @@ export default function Page() {
  <>
  <TopBar />
  <Header />
- <main className="min-h-screen bg-gray-50/10 flex flex-col w-full grow pt-4 pb-12">
+ <main className="bg-gray-50/10 flex flex-col w-full grow pt-4 pb-12">
  <section id="training" className="scroll-mt-32 bg-white px-6 py-8 md:py-10">
  <div className="mx-auto max-w-7xl">
  <div className="flex items-center gap-3 mb-4">
@@ -27,7 +27,7 @@ export default function Page() {
  Training and Learning
  </h2>
  <div className="mt-5 h-[3px] w-20 rounded-full bg-emerald-500" />
- <p className="mt-5 max-w-4xl">
+ <p className="mt-5">
  We provide specialised WGBO in-house training to organisations who want to train large groups of staff.
  </p>
 
@@ -41,7 +41,7 @@ export default function Page() {
 "Train large numbers of staff at a significantly lower per head cost",
 "Participate in customised training that caters to the needs of your staff and your organisation's business objectives",
 "Invite and engage with your key clients, suppliers and contractors to ensure you're working together with the same knowledge and understanding of Green Building.",
-"Learn from the most experienced industry professionals – the WGBO Faculty team and WGBO's staff",
+"Learn from the most experienced industry professionals â€“ the WGBO Faculty team and WGBO's staff",
 "Choose a time and location for training that suits you",
 "Demonstrate to your clients and stakeholders your commitment to training in sustainability",
 "In-house training fosters a 'team' approach to WGBO providing an opportunity for team building through learning.",

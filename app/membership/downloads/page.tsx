@@ -1,4 +1,4 @@
-import { TopBar } from "@/components/top-bar"
+﻿import { TopBar } from "@/components/top-bar"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import {
@@ -25,14 +25,14 @@ export default function Page() {
  <>
  <TopBar />
  <Header />
- <main className="min-h-screen bg-gray-50/10 flex flex-col w-full grow pt-4 pb-12">
+ <main className="bg-gray-50/10 flex flex-col w-full grow pt-4 pb-12">
  <section id="downloads" className="scroll-mt-32 bg-gray-900 px-6 py-12 md:py-16 text-center">
- <div className="mx-auto max-w-4xl">
+ <div className="mx-auto">
  <h2 className="text-3xl font-extrabold leading-[1.15] text-white md:text-4xl font-heading tracking-tight mb-8">
  Quick Downloads
  </h2>
 
- <div className="grid gap-4 sm:grid-cols-3 max-w-3xl mx-auto">
+ <div className="grid gap-4 sm:grid-cols-3 mx-auto">
  <a href="/images/WGBO Membership Form.docx" download className="flex flex-col items-center gap-3 p-6 bg-gray-800 rounded-xl hover:bg-gray-700 transition-colors border border-gray-700 cursor-pointer">
  <Download className="w-8 h-8 text-emerald-400" />
  <span className="font-semibold text-white">Membership Application</span>

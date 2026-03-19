@@ -1,4 +1,4 @@
-import { TopBar } from "@/components/top-bar"
+﻿import { TopBar } from "@/components/top-bar"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { Building, Award, ShieldCheck, Globe2, TestTube, Clock } from "lucide-react"
@@ -13,7 +13,7 @@ export default function Page() {
  <>
  <TopBar />
  <Header />
- <main className="min-h-screen bg-gray-50/10 flex flex-col w-full grow pt-4 pb-12">
+ <main className="bg-gray-50/10 flex flex-col w-full grow pt-4 pb-12">
  <section id="levels" className="scroll-mt-32 bg-white px-6 py-8 md:py-10">
  <div className="mx-auto max-w-7xl">
  <div className="flex items-center gap-3 mb-4">
@@ -27,7 +27,7 @@ export default function Page() {
  </h2>
  <div className="mt-5 h-[3px] w-20 rounded-full bg-emerald-500" />
 
- <div className="mt-6 text-black space-y-4 max-w-5xl">
+ <div className="mt-6 text-black space-y-4">
  <p>
  The WGBO Certification Scheme is a certification for green building product, and evaluates the sustainability performance of these products based on scientific and engineering principles. It is a voluntary certification scheme with a tiered rating system of one of Five levels, where a higher rating indicates better sustainability performance.
  </p>
@@ -49,25 +49,25 @@ export default function Page() {
  <tr className="hover:bg-gray-50 transition-colors">
  <td className="px-5 py-3 font-semibold text-gray-900">1</td>
  <td className="px-5 py-3">Certificate</td>
- <td className="px-5 py-3">30–40</td>
+ <td className="px-5 py-3">30â€“40</td>
  <td className="px-5 py-3">Good Performance</td>
  </tr>
  <tr className="hover:bg-gray-50 transition-colors">
  <td className="px-5 py-3 font-semibold text-gray-900">2</td>
  <td className="px-5 py-3">Bronze</td>
- <td className="px-5 py-3">41–50</td>
+ <td className="px-5 py-3">41â€“50</td>
  <td className="px-5 py-3">Very Good Performance</td>
  </tr>
  <tr className="hover:bg-gray-50 transition-colors">
  <td className="px-5 py-3 font-semibold text-gray-900">3</td>
  <td className="px-5 py-3">Silver</td>
- <td className="px-5 py-3">51–70</td>
+ <td className="px-5 py-3">51â€“70</td>
  <td className="px-5 py-3">Outstanding Performance</td>
  </tr>
  <tr className="hover:bg-gray-50 transition-colors">
  <td className="px-5 py-3 font-semibold text-gray-900">4</td>
  <td className="px-5 py-3">Gold</td>
- <td className="px-5 py-3">71–90</td>
+ <td className="px-5 py-3">71â€“90</td>
  <td className="px-5 py-3">National Excellence</td>
  </tr>
  <tr className="hover:bg-gray-50 transition-colors">

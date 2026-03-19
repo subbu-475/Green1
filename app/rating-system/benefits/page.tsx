@@ -1,4 +1,4 @@
-import { TopBar } from "@/components/top-bar"
+﻿import { TopBar } from "@/components/top-bar"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { Building, Award, ShieldCheck, Globe2, TestTube, Clock } from "lucide-react"
@@ -13,7 +13,7 @@ export default function Page() {
  <>
  <TopBar />
  <Header />
- <main className="min-h-screen bg-gray-50/10 flex flex-col w-full grow pt-4 pb-12">
+ <main className="bg-gray-50/10 flex flex-col w-full grow pt-4 pb-12">
  <section id="benefits" className="scroll-mt-32 bg-gray-50/70 px-6 py-8 md:py-10">
  <div className="mx-auto max-w-7xl">
  <div className="flex items-center gap-3 mb-4">
@@ -27,7 +27,7 @@ export default function Page() {
  </h2>
  <div className="mt-5 h-[3px] w-20 rounded-full bg-emerald-500" />
 
- <div className="mt-6 text-black max-w-5xl">
+ <div className="mt-6 text-black">
  <p className="mb-6">
  Once a product is certified, WGBO will issue the product a certificate. Only certified products will be listed on the WGBO Certification Directory, which is maintained on the World Green Building Organization's (WGBO) website. This Interactive Directory is actively used by building industry professionals such as consultants, contractors, building developers and owners. Stakeholders can demand that products/ materials used for a building are WGBO certified. Certified products can gain credits under various green building rating tools.
  </p>

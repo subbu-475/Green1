@@ -1,4 +1,4 @@
-import { TopBar } from "@/components/top-bar"
+﻿import { TopBar } from "@/components/top-bar"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { Shield, FileText, CheckCircle, Send, Download } from "lucide-react"
@@ -18,7 +18,7 @@ const conductItems = [
 "Members must be dedicated to professional development of new members in the safety profession and associated disciplines.",
 "Members must be responsible for their complete sincerity in professional service to the world.",
 "Members must be responsible for continuing improvement and development of professional competencies in safety and associated disciplines.",
- 'Members must be responsible for their professional efforts to support the World Green Building Organization motto,"Making Green Go a Way of Life…Worldwide."',
+ 'Members must be responsible for their professional efforts to support the World Green Building Organization motto,"Making Green Go a Way of Lifeâ€¦Worldwide."',
 ]
 
 const agreementItems = [
@@ -37,13 +37,13 @@ export default function CodeOfConductPage() {
  {/* Hero */}
  <section className="relative bg-gradient-to-br from-primary via-primary/90 to-emerald-800 py-20 text-primary-foreground">
  <div className="absolute inset-0 bg-[url('/images/hero-1-v3.jpg')] bg-cover bg-center opacity-10" />
- <div className="relative z-10 mx-auto max-w-4xl px-4 text-center">
+ <div className="relative z-10 mx-auto px-4 text-center">
  <div className="mx-auto mb-6 flex h-20 w-20 items-center justify-center rounded-2xl bg-white/10 backdrop-blur-sm">
  <Shield className="h-10 w-10" />
  </div>
  <h1 className="font-serif text-4xl font-bold md:text-5xl">Code of Conduct</h1>
  <p className="mx-auto mt-4 max-w-2xl text-lg text-primary-foreground/80">
- World Green Building Organization — International Office for India
+ World Green Building Organization â€” International Office for India
  </p>
  <a
  href="/images/WGBO Code-of-Conduct.docx"
@@ -58,7 +58,7 @@ export default function CodeOfConductPage() {
 
  {/* Introduction */}
  <section className="py-16">
- <div className="mx-auto max-w-4xl px-4">
+ <div className="mx-auto px-4">
  <div className="rounded-2xl border border-primary/20 bg-primary/5 p-8 md:p-10">
  <div className="flex items-start gap-4">
  <FileText className="mt-1 h-6 w-6 shrink-0 text-primary" />
@@ -75,7 +75,7 @@ export default function CodeOfConductPage() {
 
  {/* Code of Conduct Items */}
  <section className="pb-16">
- <div className="mx-auto max-w-4xl px-4">
+ <div className="mx-auto px-4">
  <h2 className="mb-8 font-serif text-2xl font-bold text-foreground md:text-3xl">
  Professional <span className="text-primary">Obligations</span>
  </h2>
@@ -97,7 +97,7 @@ export default function CodeOfConductPage() {
 
  {/* Statement of Agreement */}
  <section className="bg-secondary py-16">
- <div className="mx-auto max-w-4xl px-4">
+ <div className="mx-auto px-4">
  <h2 className="mb-8 font-serif text-2xl font-bold text-foreground md:text-3xl">
  Statement of <span className="text-primary">Agreement</span>
  </h2>
@@ -117,7 +117,7 @@ export default function CodeOfConductPage() {
 
  {/* Signature & Submission */}
  <section className="py-16">
- <div className="mx-auto max-w-4xl px-4">
+ <div className="mx-auto px-4">
  <div className="rounded-2xl border border-border bg-background p-8 shadow-lg md:p-10">
  <h3 className="mb-6 font-serif text-xl font-bold text-foreground md:text-2xl">
  Signature & Submission

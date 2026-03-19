@@ -1,4 +1,4 @@
-import { TopBar } from "@/components/top-bar"
+﻿import { TopBar } from "@/components/top-bar"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { GraduationCap, Laptop, Video, Megaphone, CalendarSearch, BookMarked, CheckCircle2 } from "lucide-react"
@@ -13,7 +13,7 @@ export default function Page() {
  <>
  <TopBar />
  <Header />
- <main className="min-h-screen bg-gray-50/10 flex flex-col w-full grow pt-4 pb-12">
+ <main className="bg-gray-50/10 flex flex-col w-full grow pt-4 pb-12">
  <section id="publication" className="scroll-mt-32 bg-gray-50/70 px-6 py-8 md:py-10">
  <div className="mx-auto max-w-7xl">
  <div className="flex items-center gap-3 mb-4">
@@ -27,7 +27,7 @@ export default function Page() {
  </h2>
  <div className="mt-5 h-[3px] w-20 rounded-full bg-emerald-500" />
 
- <p className="mt-6 max-w-4xl text-black">
+ <p className="mt-6 text-black">
  The purpose of the newsletter of Green Building is to present the very best peer-reviewed research for the sustainable built environment at the building, community, neighborhood and urban scale. As such, the newsletter's coverage includes green building design and construction, community and urban planning, green building policy and developmental studies, building engineering and technological innovation, facilities management, building information modeling, occupant behavior and sustainable landscape development.
  </p>
  </div>

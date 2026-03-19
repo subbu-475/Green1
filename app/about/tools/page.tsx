@@ -1,4 +1,4 @@
-import { TopBar } from "@/components/top-bar"
+﻿import { TopBar } from "@/components/top-bar"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { Shield, BookOpen, Megaphone, CloudSun, Heart, TreePine, Leaf, Building2 } from "lucide-react"
@@ -13,7 +13,7 @@ export default function Page() {
  <>
  <TopBar />
  <Header />
- <main className="min-h-screen bg-gray-50/10 flex flex-col w-full grow pt-4 pb-12">
+ <main className="bg-gray-50/10 flex flex-col w-full grow pt-4 pb-12">
  <section id="tools" className="scroll-mt-32 bg-gray-50/70 px-6 py-10 md:py-12">
  <div className="mx-auto max-w-7xl">
  <div className="flex items-center gap-3 mb-4">
@@ -27,12 +27,12 @@ export default function Page() {
  </h2>
  <div className="mt-5 h-[3px] w-20 rounded-full bg-emerald-500" />
 
- <p className="mt-5 max-w-5xl leading-[1.85] text-black md:">
+ <p className="mt-5 leading-[1.85] text-black md:">
  Our World Green Building Organization (WGBO) tools offer a framework of
  best practice benchmarks for sustainable construction.
  </p>
 
- <p className="mt-4 max-w-5xl leading-[1.85] text-black md:">
+ <p className="mt-4 leading-[1.85] text-black md:">
  World Green Building Organization (WGBO) national trusted mark of quality
  for the design, construction and operation of sustainable buildings,
  fit-outs and communities.

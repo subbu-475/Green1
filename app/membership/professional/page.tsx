@@ -1,4 +1,4 @@
-import { TopBar } from "@/components/top-bar"
+﻿import { TopBar } from "@/components/top-bar"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import {
@@ -25,7 +25,7 @@ export default function Page() {
  <>
  <TopBar />
  <Header />
- <main className="min-h-screen bg-gray-50/10 flex flex-col w-full grow pt-4 pb-12">
+ <main className="bg-gray-50/10 flex flex-col w-full grow pt-4 pb-12">
  <section id="professional" className="scroll-mt-32 bg-white px-6 py-8 md:py-10">
  <div className="mx-auto max-w-7xl">
  <div className="flex items-center gap-3 mb-4">
@@ -39,7 +39,7 @@ export default function Page() {
  </h2>
  <div className="mt-5 h-[3px] w-20 rounded-full bg-emerald-500" />
 
- <div className="mt-6 text-black max-w-6xl space-y-4">
+ <div className="mt-6 text-black space-y-4">
  <p className="font-semibold text-gray-900">
  Become a World Green Building Organization (WGBO) Professional Member
  </p>
@@ -47,7 +47,7 @@ export default function Page() {
  Being acknowledged as a Professional Member of a Sustainability and Environment organization based upon one's education, years of knowledge, and experience in the Sustainability and Environment field is a goal for many to achieve. Not everyone has the college or university degree that is sometimes required to compete for an advanced level Sustainability and Environment Professionals Certification. Not everyone enjoys the environment of classroom training and potentially taking the computer-type exam, which doesn't always show one's true abilities in Sustainability and Environment management and/or practice.
  </p>
  <p>
- There are many Sustainability and Environment Directors, Sustainability and Environment Coordinators, and Sustainability and Environment Specialists in the Sustainability and Environment arena who have many years of experience but lack the mathematical expertise to pass a specific Sustainability and Environment certification exam. However, by a submission of one's work/career credentials, résumé, professional references, Sustainability and Environment seminar certificates, Sustainability and Environment education, and several testimonies from peers showing his/her elite level, Sustainability and Environment practitioners and professionals can become a World Green Building Organization (WGBO) Professional Member upon verification and approval.
+ There are many Sustainability and Environment Directors, Sustainability and Environment Coordinators, and Sustainability and Environment Specialists in the Sustainability and Environment arena who have many years of experience but lack the mathematical expertise to pass a specific Sustainability and Environment certification exam. However, by a submission of one's work/career credentials, rÃ©sumÃ©, professional references, Sustainability and Environment seminar certificates, Sustainability and Environment education, and several testimonies from peers showing his/her elite level, Sustainability and Environment practitioners and professionals can become a World Green Building Organization (WGBO) Professional Member upon verification and approval.
  </p>
 
  <div className="bg-emerald-50/50 p-6 rounded-xl border border-emerald-100 my-6">
@@ -59,7 +59,7 @@ export default function Page() {
  This membership level gives one a great opportunity to continue to gain knowledge as a member of the World Green Building Organization (WGBO), network with and learn from other members, and attend our annual Symposium featuring world-class Sustainability and Environment professionals from around the world presenting various types of Sustainability and Environment modules.
  </p>
  <p className="mb-4">
- The World Green Building Organization (WGBO) Professional Members are Sustainability and Environment professionals performing full-time activities in these fields. Along with the Professional Membership Application, current résumé, and World Green Building Organization (WGBO) Code of Conduct, the following documentation is to be submitted:
+ The World Green Building Organization (WGBO) Professional Members are Sustainability and Environment professionals performing full-time activities in these fields. Along with the Professional Membership Application, current rÃ©sumÃ©, and World Green Building Organization (WGBO) Code of Conduct, the following documentation is to be submitted:
  </p>
  <ul className="list-decimal pl-6 space-y-2 mb-4">
  <li>Two Letters of Recommendations as to one's Sustainability and Environment abilities on the job</li>

@@ -1,4 +1,4 @@
-import { TopBar } from "@/components/top-bar"
+﻿import { TopBar } from "@/components/top-bar"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import {
@@ -24,7 +24,7 @@ export default function Page() {
  <>
  <TopBar />
  <Header />
- <main className="min-h-screen bg-gray-50/10 flex flex-col w-full grow pt-4 pb-12">
+ <main className="bg-gray-50/10 flex flex-col w-full grow pt-4 pb-12">
  <section id="application" className="scroll-mt-32 bg-white px-6 py-8 md:py-10">
  <div className="mx-auto max-w-7xl">
  <div className="flex items-center gap-3 mb-4">
@@ -38,14 +38,14 @@ export default function Page() {
  </h2>
  <div className="mt-5 h-[3px] w-20 rounded-full bg-emerald-500" />
 
- <div className="mt-6 text-black space-y-6 max-w-6xl">
+ <div className="mt-6 text-black space-y-6">
  <p>
  To apply for any Certification with WGBO, you must first become an Affiliate Member. You will need to submit the following:
  </p>
  <ul className="list-disc pl-6 space-y-1 mb-6">
  <li>Membership Application</li>
  <li>Code of Conduct</li>
- <li>Current Résumé/CV</li>
+ <li>Current RÃ©sumÃ©/CV</li>
  <li>Payment (NEFT, UPI, etc.)</li>
  </ul>
 
@@ -55,7 +55,7 @@ export default function Page() {
  <ul className="list-disc pl-6 space-y-1 mb-6">
  <li>Application for Certification</li>
  <li>Two Candidate Evaluations</li>
- <li>Current résumé/CV</li>
+ <li>Current rÃ©sumÃ©/CV</li>
  <li>Supporting Documentation (certificates, transcripts, etc.).</li>
  </ul>
 
